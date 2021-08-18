@@ -16,7 +16,6 @@ body{
 #Logo{
     margin: 20px 20px;
     transition: 0.3s;
-    display: inline-block;
 }
 #homeButton{
     visibility: hidden;

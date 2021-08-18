@@ -1,3 +1,8 @@
+@font-face {
+    font-family: joystiximport;
+    src: url("fonts/joystix monospace.ttf");
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -25,4 +30,13 @@ body{
 #Logo:hover{
     transform: translateY(4px);
     transform: translateX(4px);
+}
+
+#itemsButtonText{
+    font-family: 'joystiximport';
+    color: black;
+}
+#itemsButton{
+    border: none;
+    background: none;
 }

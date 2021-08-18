@@ -1,9 +1,9 @@
-body{
-    background-color: rgb(208, 226, 235);  
+body{ 
     color: black;
 }
 .headerBar{
    text-align: left; 
+   background-color: rgb(208, 226, 235); 
 }
 /*#logo{
     

@@ -35,8 +35,12 @@ body{
 #itemsButtonText{
     font-family: 'joystiximport';
     color: black;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
 }
 #itemsButton{
+    margin: 30px 0;
     border: none;
     background: none;
 }

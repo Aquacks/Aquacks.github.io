@@ -14,11 +14,10 @@ body{
     color: black;
 }
 #Logo{
-    margin: 20px 20px;
-    transition: 0.3s;
+    visibility: visible;
 }
-#homeButton{
-    size: 10px;
+.homeButton{
+    margin: 20px 20px;
 }
 #Logo:hover{
     transform: translateY(4px);

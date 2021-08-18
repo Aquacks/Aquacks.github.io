@@ -31,11 +31,34 @@ body{
     transform: translateX(4px);
 }
 
-.topButtons{
-    font-family: 'joystiximport';
+#itemsButtonText{
     color: black;
-    text-align: left;
     font-size: 40px;
+    font-family: 'joystiximport';
+    text-align: left;
+}
+#faqButtonText{
+    color: black;
+    font-size: 40px;
+    font-family: 'joystiximport';
+    text-align: left;
+}
+#basButtonText{
+    color: black;
+    font-size: 40px;
+    font-family: 'joystiximport';
+    text-align: left;
+}
+
+#itemsButton{
+    border: none;
+    background: none;
+}
+#faqButton{
+    border: none;
+    background: none;
+}
+#basButton{
     border: none;
     background: none;
 }

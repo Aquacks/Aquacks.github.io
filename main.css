@@ -13,8 +13,7 @@ html, body {
 body{ 
     color: black;
 }
-#logo{
-    display: inline-block;
+#Logo{
     margin: 20px 20px;
 }
 

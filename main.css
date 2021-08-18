@@ -14,7 +14,9 @@ body{
     color: black;
 }
 .homeButton{
-    background-color: rgba(0, 0, 0, 0);
+    margin: 20px 20px;
+    border: none;
+    background: none;
 }
 #Logo{
     visibility: visible;

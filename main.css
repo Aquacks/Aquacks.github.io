@@ -13,7 +13,7 @@ html, body {
 body{ 
     color: black;
 }
-/*#logo{
-    
+#logo{
+    object-position: 64px 0;
 }
 

@@ -18,7 +18,7 @@ body{
     transition: 0.3s;
 }
 #homeButton{
-    visibility: hidden;
+    size: 10px;
 }
 #Logo:hover{
     transform: translateY(4px);

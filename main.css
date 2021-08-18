@@ -18,9 +18,8 @@ body{
     transition: 0.3s;
     display: inline-block;
 }
-.homeButton{
-    transition: 0.3s;
-    display: inline-block;
+#homeButton{
+    visibility: hidden;
 }
 #Logo:hover{
     transform: translateY(4px);

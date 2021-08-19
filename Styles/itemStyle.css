@@ -97,8 +97,9 @@ body{
     transform: translateX(4px);
 }
 
-.itemDisplay ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.itemDisplay{
+    display: grid;
+}
+.itemDisplay .itemPanel{
+    border: 3px solid black;
 }

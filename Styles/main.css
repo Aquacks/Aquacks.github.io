@@ -89,7 +89,6 @@ body{
 #infoTitle{
     float: right;
     font-size: 40px;
-    position: absolute;
 }
 #infoText{
     position: relative;

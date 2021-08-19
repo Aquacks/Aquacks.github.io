@@ -13,8 +13,7 @@ html, body {
 
 .headerBar{
    background-color: rgb(208, 226, 235); 
-   display: block;
-   align-content: center;
+   float: right;
 }
 body{ 
     color: black;

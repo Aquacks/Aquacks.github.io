@@ -40,6 +40,7 @@ body{
     background: none;
     overflow: hidden;
     float: right;
+    padding-right: 5px;
 }
 .topNav a {
     border: 3px solid black;
@@ -55,7 +56,7 @@ body{
 }
 .topNav a:hover{
     color: white;
-    background: rgb(50, 113, 207);
+    background: rgb(105, 155, 230);
     transform: translateY(4px);
     transform: translateX(4px);
 }

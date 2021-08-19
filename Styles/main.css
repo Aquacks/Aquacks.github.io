@@ -86,15 +86,7 @@ body{
     text-align: center;
     height: auto;
 }
-#automationTitle{
-    float: right;
-    font-size: 40px;
-}
-#priceTitle{
-    float: right;
-    font-size: 40px;
-}
-#securityTitle{
+#infoTitle{
     float: right;
     font-size: 40px;
 }

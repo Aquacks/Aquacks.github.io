@@ -13,6 +13,8 @@ html, body {
 
 .headerBar{
    background-color: rgb(208, 226, 235); 
+   display: flex;
+   flex-direction: row;
 }
 body{ 
     color: black;
@@ -20,7 +22,6 @@ body{
 .homeButton{
     border: none;
     background: none;
-    float: left;
 }
 #Logo{
     visibility: visible;

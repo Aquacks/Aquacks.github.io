@@ -84,7 +84,7 @@ body{
     text-align: center;
     height: auto;
 }
-.automation#title{
+#automationTitle{
     float: right;
     font-size: 30px;
 }

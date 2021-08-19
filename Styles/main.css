@@ -83,7 +83,5 @@ body{
     font-size: 20px;
     font-family: "bebasNeueImport";
     text-align: center;
-}
-.botInfo{
-    width: 200px;
+    height: auto;
 }

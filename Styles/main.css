@@ -74,6 +74,7 @@ body{
     color: white;
     text-shadow: -4px 5px gray;
 }
+
 .content1{
     background-color: rgba(255, 255, 255, 0.651);
 }
@@ -86,5 +87,13 @@ body{
 }
 #automationTitle{
     float: right;
-    font-size: 30px;
+    font-size: 40px;
+}
+#priceTitle{
+    float: right;
+    font-size: 40px;
+}
+#securityTitle{
+    float: right;
+    font-size: 40px;
 }

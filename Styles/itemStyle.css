@@ -1,10 +1,10 @@
 @font-face {
     font-family: joystiximport;
-    src: url("../fonts/joystix monospace.ttf");
+    src: url("../fonts/joystix monospace");
 }
 @font-face {
     font-family: bebasNeueImport;
-    src: url("../fonts/BebasNeue-Regular.ttf");
+    src: url("../fonts/BebasNeue-Regular");
 }
 
 @keyframes fadein {

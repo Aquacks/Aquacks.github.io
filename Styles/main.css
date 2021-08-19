@@ -85,3 +85,10 @@ body{
     text-align: center;
     height: auto;
 }
+.botInfo{
+    display: flex;
+    flex-direction: row;
+}
+.botInfo#botInfoText{
+    text-align: left;
+}

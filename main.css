@@ -14,6 +14,7 @@ html, body {
 .headerBar{
    background-color: rgb(208, 226, 235); 
    display: block;
+   align-content: center;
 }
 body{ 
     color: black;

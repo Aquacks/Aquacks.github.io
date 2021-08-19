@@ -87,7 +87,6 @@ body{
     height: auto;
 }
 #infoTitle{
-    float: right;
     font-size: 40px;
 }
 #infoText{

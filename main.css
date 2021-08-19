@@ -20,6 +20,7 @@ body{
 .homeButton{
     border: none;
     background: none;
+    float: left;
 }
 #Logo{
     visibility: visible;

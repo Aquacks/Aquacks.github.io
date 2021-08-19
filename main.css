@@ -46,4 +46,8 @@ body{
     text-decoration: none;
     font-size: 30px;
     font-family: 'joystiximport';
+    transition: 0.2s;
+}
+.topNav a:hover{
+    opacity: 0.6;
 }

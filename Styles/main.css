@@ -66,6 +66,7 @@ body{
 .slogan{
     font-family: 'joystiximport';
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
     color: white;
+    text-shadow: -4px 5px gray;
 }

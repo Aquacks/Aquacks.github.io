@@ -62,3 +62,10 @@ body{
     transform: translateY(4px);
     transform: translateX(4px);
 }
+
+.slogan{
+    font-family: 'joystiximport';
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}

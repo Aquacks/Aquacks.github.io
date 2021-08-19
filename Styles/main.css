@@ -1,16 +1,15 @@
 @font-face {
     font-family: joystiximport;
-    src: url("fonts/joystix monospace.ttf");
+    src: url("Aquacks.github.io/fonts/joystix monospace.ttf");
 }
 
 html, body {
     padding: 0;
     margin: 0;
     background-image: url("Assets/bg1.png");
-    /*amogus*/
 }
 .header {
-  margin: 0;
+    margin: 0;
 }
 
 .headerBar{

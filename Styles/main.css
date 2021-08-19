@@ -80,7 +80,6 @@ body{
 .mainInfo{
     display: flex;
     flex-direction: row;
-    display: block;
     font-size: 20px;
     font-family: "bebasNeueImport";
     text-align: center;

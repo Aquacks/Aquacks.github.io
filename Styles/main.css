@@ -93,4 +93,5 @@ body{
 #infoText{
     float: right;
     font-size: 25px;
+    word-wrap: break-word;
 }

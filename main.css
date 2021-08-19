@@ -54,6 +54,6 @@ body{
     margin-left: 30px;
 }
 .topNav a:hover{
-    opacity: 0.6;
+    color: white;
     background: rgb(50, 113, 207);
 }

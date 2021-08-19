@@ -100,8 +100,7 @@ body{
 .itemDisplay{
     display: grid;
     grid-template-columns: auto auto auto;
-    max-width: 100%;
-    width: 200px; 
+    width: 50%;
 }
 .itemDisplay .itemPanel{
     background-color: rgba(255, 255, 255, 0.8);

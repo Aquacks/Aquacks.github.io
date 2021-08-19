@@ -71,7 +71,7 @@ body{
 
 .topNav{
     margin-left: 30px;
-    background: none;
+    background: rgb(152, 190, 226);
     overflow: hidden;
     float: right;
     padding-right: 5px;

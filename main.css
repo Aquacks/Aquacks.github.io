@@ -13,7 +13,6 @@ html, body {
 
 .headerBar{
    background-color: rgb(208, 226, 235); 
-   float: right;
 }
 body{ 
     color: black;
@@ -34,6 +33,7 @@ body{
 .topNav{
     background: none;
     overflow: hidden;
+    float: right;
 }
 .topNav a {
     float: left;

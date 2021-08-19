@@ -12,8 +12,8 @@ html, body {
 }
 
 .headerBar{
-   text-align: left; 
    background-color: rgb(208, 226, 235); 
+   display: block;
 }
 body{ 
     color: black;

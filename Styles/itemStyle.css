@@ -100,18 +100,19 @@ body{
 .itemDisplay{
     display: grid;
     grid-template-columns: auto auto auto;
-    resize: both;
-    max-width: 100%;
-    height: auto;
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
 }
 .itemDisplay .itemPanel{
     background-color: rgba(255, 255, 255, 0.8);
     border: 3px solid rgba(0, 0, 0, 0.8);
     font-family: 'joystiximport';
     padding: 20px;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     margin: 10px;
     max-width: 100%;
     height: auto;
+    display: block;
 }

@@ -41,7 +41,7 @@ body{
     float: right;
 }
 .topNav a {
-    border: black 3px;
+    border: 3px solid black;
     float: left;
     color: black;
     text-align: center;

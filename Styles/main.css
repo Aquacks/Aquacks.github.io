@@ -85,15 +85,3 @@ body{
     text-align: center;
     height: auto;
 }
-.botInfo{
-    display: flex;
-    flex-direction: row;
-}
-.botInfo#botInfoText{
-    text-align: left;
-}
-.botInfo#botInfoTitle{
-    text-align: left;
-    font-size: 50px;
-    border: 3px solid black;
-}

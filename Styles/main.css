@@ -13,7 +13,7 @@ html, body {
 }
 
 .headerBar{
-   background-color: rgba(208, 226, 235, 0.603); 
+   background-color: rgba(208, 226, 235, 0.705); 
    display: flex;
    flex-direction: row;
    align-items: center;

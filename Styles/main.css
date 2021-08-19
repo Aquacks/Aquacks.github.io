@@ -77,8 +77,10 @@ body{
 }
 .content1.botInfo{
     text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .content1.botImage{
     width: 200px;
-    border: 3px solid gray;
+    border: 6px solid gray;
 }

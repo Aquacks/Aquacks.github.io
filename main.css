@@ -56,4 +56,6 @@ body{
 .topNav a:hover{
     color: white;
     background: rgb(50, 113, 207);
+    transform: translateY(4px);
+    transform: translateX(4px);
 }

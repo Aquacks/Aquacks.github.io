@@ -80,8 +80,11 @@ body{
 .mainInfo{
     display: flex;
     flex-direction: row;
-    font-size: 30px;
     font-family: "bebasNeueImport";
     text-align: center;
     height: auto;
+}
+.automation#title{
+    float: right;
+    font-size: 30px;
 }

@@ -2,6 +2,10 @@
     font-family: joystiximport;
     src: url("../fonts/joystix monospace.ttf");
 }
+@font-face {
+    font-family: bebasNeueImport;
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
 
 html, body {
     padding: 0;
@@ -75,15 +79,9 @@ body{
     display: flex;
     flex-direction: row;
 }
-.botInfo{
+.mainInfo{
+    display: block;
+    font-size: 20px;
+    font-family: "bebasNeueImport";
     text-align: center;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.botImage{
-    width: 200px;
-    border: 6px solid rgb(22, 135, 211);
 }

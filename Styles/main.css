@@ -91,4 +91,5 @@ body{
 }
 .botInfo#botInfoText{
     text-align: left;
+    vertical-align: baseline;
 }

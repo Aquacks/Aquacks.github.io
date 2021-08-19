@@ -53,12 +53,18 @@ body{
 #itemsButton{
     border: none;
     background: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #faqButton{
     border: none;
     background: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #basButton{
     border: none;
     background: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }

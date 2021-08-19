@@ -96,3 +96,9 @@ body{
     transform: translateY(4px);
     transform: translateX(4px);
 }
+
+.itemDisplay ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

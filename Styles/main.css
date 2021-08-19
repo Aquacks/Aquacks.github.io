@@ -79,9 +79,11 @@ body{
     text-align: center;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px 0;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .botImage{
     width: 200px;
-    border: 6px solid gray;
+    border: 6px solid rgb(22, 135, 211);
 }

@@ -56,4 +56,5 @@ body{
 }
 .topNav a:hover{
     opacity: 0.6;
+    background: rgb(50, 113, 207);
 }

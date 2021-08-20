@@ -118,6 +118,7 @@ body{
 }
 .content1 .question1{
     margin-left: 20px;
+    width: 30%;
 }
 .content1 .question1 #questionTitle1{
     font-family: 'joystiximport';
@@ -127,7 +128,7 @@ body{
 }
 .content1 .question1 #questionAnswer1{
     font-family: 'bebasNeueImport';
-    font-size: 20px;
+    font-size: 2000px;
     color: rgb(37, 37, 37);
     text-align: left;   
 }

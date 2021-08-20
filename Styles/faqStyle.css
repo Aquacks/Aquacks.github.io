@@ -116,6 +116,8 @@ body{
     background-color: rgba(255, 255, 255, 0.651);
     margin-top: 40px;
     word-wrap: break-word;
+    padding: 15px;
+    border: 3px solid darkslategray;
 }
 .content1 .question1{
     margin-left: 20px;
@@ -129,6 +131,6 @@ body{
 }
 .content1 .question1 #questionAnswer1{
     font-family: 'bebasNeueImport';
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(37, 37, 37);
 }

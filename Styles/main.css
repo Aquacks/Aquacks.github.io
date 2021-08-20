@@ -51,6 +51,7 @@ html, body {
    flex-direction: row;
    align-items: center;
    padding: 5px;
+   position: fixed;
 }
 body{ 
     color: black;

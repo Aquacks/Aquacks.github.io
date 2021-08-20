@@ -120,16 +120,15 @@ body{
 .content1 .question1{
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
 }
 .content1 .question1 #questionTitle1{
     font-family: 'joystiximport';
     font-size: 30px;
     color: black;
-    text-align: left;
 }
 .content1 .question1 #questionAnswer1{
     font-family: 'bebasNeueImport';
-    font-size: 2000px;
+    font-size: 20px;
     color: rgb(37, 37, 37);
-    text-align: left;   
 }

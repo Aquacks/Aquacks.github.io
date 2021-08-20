@@ -105,6 +105,7 @@ body{
     font-size: 30px;
     color: white;
     text-shadow: -4px 5px gray;
+    margin-top: 100px;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */

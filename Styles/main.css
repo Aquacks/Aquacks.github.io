@@ -130,11 +130,12 @@ body{
             animation: fadein 2s;
 }
 #infoTitle{
-    font-size: 40px;
+    font-size: 55px;
     margin: 0;
 }
 #infoText{
     float: right;
     font-size: 25px;
     word-wrap: break-word;
+    margin: 5px;
 }

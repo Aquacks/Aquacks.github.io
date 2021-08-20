@@ -115,17 +115,19 @@ body{
 .content1{
     background-color: rgba(255, 255, 255, 0.651);
     margin-top: 40px;
+}
+.content1 .question1{
     margin-left: 20px;
 }
 .content1 .question1 #questionTitle1{
     font-family: 'joystiximport';
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     text-align: left;
 }
-.content1 .question1 #questionAnswer{
+.content1 .question1 #questionAnswer1{
     font-family: 'bebasNeueImport';
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(37, 37, 37);
     text-align: left;   
 }

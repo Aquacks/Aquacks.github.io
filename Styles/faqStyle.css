@@ -97,3 +97,17 @@ body{
     transform: translateY(4px);
     transform: translateX(4px);
 }
+
+.faqTitleHeaer{
+    font-family: 'joystiximport';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: -4px 5px gray;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}

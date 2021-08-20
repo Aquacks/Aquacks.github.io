@@ -115,8 +115,6 @@ body{
 .content1{
     background-color: rgba(255, 255, 255, 0.651);
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
     word-wrap: break-word;
 }
 .content1 .question1{

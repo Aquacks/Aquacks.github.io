@@ -81,6 +81,7 @@ body{
     background-color: rgb(166, 211, 241);
     float: left;
     color: black;
+    text-shadow: -2px 2px gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

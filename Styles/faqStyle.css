@@ -134,6 +134,16 @@ body{
     padding: 15px;
     border: 3px solid darkslategray;
 }
+.content1 .question3{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.651);
+    margin-top: 40px;
+    word-wrap: break-word;
+    padding: 15px;
+    border: 3px solid darkslategray;
+}
 .content1 #questionTitle{
     font-family: 'joystiximport';
     font-size: 30px;

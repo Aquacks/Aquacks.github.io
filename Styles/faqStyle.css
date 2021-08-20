@@ -124,12 +124,12 @@ body{
     margin-right: 20px;
     text-align: center;
 }
-.content1 .question1 #questionTitle1{
+.content1 #questionTitle{
     font-family: 'joystiximport';
     font-size: 30px;
     color: black;
 }
-.content1 .question1 #questionAnswer1{
+.content1 #questionAnswer{
     font-family: 'bebasNeueImport';
     font-size: 25px;
     color: rgb(37, 37, 37);

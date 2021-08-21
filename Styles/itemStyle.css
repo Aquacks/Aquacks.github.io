@@ -101,3 +101,11 @@ body{
 .itemDisplay ul{
     columns: 4;
 }
+.itemDisplay ul li img{
+    width: 300px;
+}
+.itemDisplay ul li h1{
+    font-family: 'joystiximport';
+    font-size: 30px;
+    text-align: center;
+}

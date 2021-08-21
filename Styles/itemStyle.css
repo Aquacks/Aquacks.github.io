@@ -111,6 +111,7 @@ body{
     background-color: rgba(208, 226, 235, 0.705); 
     border: 3px solid rgba(157, 167, 172, 0.705); 
     max-width: 100%;
+    break-inside: avoid-column;
 }
 .itemDisplay ul li img{
     width: 200px;

@@ -99,18 +99,23 @@ body{
 }
 
 .itemDisplay ul{
-    columns: 4;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;}&#8203;
     list-style-type: none;
 }
 .itemDisplay ul li{
     background-color: rgba(208, 226, 235, 0.705); 
     border: 3px solid rgba(157, 167, 172, 0.705); 
-    margin: 30px;
     min-width: 100%;
 }
 .itemDisplay ul li img{
     width: 200px;
     filter: drop-shadow(-5px 4px 1px gray);
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

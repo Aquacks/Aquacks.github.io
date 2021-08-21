@@ -101,12 +101,11 @@ body{
 .itemDisplay ul{
     columns: 4;
     list-style-type: none;
-    box-sizing: border-box
 }
 .itemDisplay ul li{
     background-color: rgba(208, 226, 235, 0.705); 
     border: 3px solid rgba(157, 167, 172, 0.705); 
-    box-sizing: border-box
+    margin: 30px;
 }
 .itemDisplay ul li img{
     width: 200px;

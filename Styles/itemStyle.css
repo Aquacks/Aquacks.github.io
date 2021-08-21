@@ -111,7 +111,6 @@ body{
 .itemDisplay ul li img{
     width: 200px;
     filter: drop-shadow(-5px 4px 1px gray);
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }

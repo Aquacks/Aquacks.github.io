@@ -98,9 +98,6 @@ body{
     transform: translateX(4px);
 }
 
-.itemDisplay{
-    overflow: hidden;
-}
 .itemDisplay ul{
     -moz-column-count: 3;
     -moz-column-gap: 20px;
@@ -116,6 +113,7 @@ body{
     max-width: 100%;
     break-inside: avoid-column;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .itemDisplay ul li img{
     width: 300px;
@@ -134,12 +132,12 @@ body{
 }
 .itemDisplay ul li button{
     font-family: 'bebasNeueImport';
-    font-size: 25px;
+    font-size: 28px;
     background-color: rgb(13, 108, 163);
     float: right;
 }
 .itemDisplay ul li h2{
     font-family: 'bebasNeueImport';
-    font-size: 25px;
+    font-size: 28px;
     float: left;
 }

@@ -101,10 +101,10 @@ body{
 .itemDisplay ul{
     columns: 4;
     list-style-type: none;
-    padding: 15px 15px;
 }
 .itemDisplay ul li{
     background-color: rgba(208, 226, 235, 0.705); 
+    padding: 15px 15px;
 }
 .itemDisplay ul li img{
     width: 200px;

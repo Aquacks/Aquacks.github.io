@@ -98,6 +98,9 @@ body{
     transform: translateX(4px);
 }
 
+.itemDisplay{
+    overflow: hidden;
+}
 .itemDisplay ul{
     -moz-column-count: 3;
     -moz-column-gap: 20px;

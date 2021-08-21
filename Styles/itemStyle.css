@@ -133,4 +133,10 @@ body{
     font-family: 'bebasNeueImport';
     font-size: 25px;
     background-color: rgb(13, 108, 163);
+    float: right;
+}
+.itemDisplay ul li h2{
+    font-family: 'bebasNeueImport';
+    font-size: 25px;
+    float: left;
 }

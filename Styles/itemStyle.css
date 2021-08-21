@@ -104,7 +104,7 @@ body{
     -webkit-column-count: 3;
     -webkit-column-gap: 20px;
     column-count: 3;
-    column-gap: 20px;}&#8203;
+    column-gap: 20px;
     list-style-type: none;
 }
 .itemDisplay ul li{

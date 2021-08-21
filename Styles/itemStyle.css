@@ -101,10 +101,7 @@ body{
 .itemDisplay{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
+    display: grid;
 }
 .itemDisplay ul li{
     background-color: rgba(255, 255, 255, 0.8);
@@ -116,4 +113,23 @@ body{
     margin: 10px;
     width: 300px;
     box-sizing: border-box;
+}
+.listGrid li{
+    display: flex;
+    align-items: center;
+
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 10px;
+    list-style-position: inside;
+    width: 230px;
+    text-transform: none;
+}
+
+.listGrid{
+    display: grid;
+    display: -ms-grid;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
 }

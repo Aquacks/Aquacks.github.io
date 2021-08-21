@@ -107,6 +107,7 @@ body{
     border: 3px solid rgba(157, 167, 172, 0.705); 
     margin: 30px;
     min-width: 100%;
+    min-height: 100%;
 }
 .itemDisplay ul li img{
     width: 200px;

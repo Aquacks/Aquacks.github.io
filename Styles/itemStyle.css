@@ -101,25 +101,23 @@ body{
 .itemDisplay{
     width: 100%;
     height: auto;
-    display: grid;
-}
-.listGrid li{
     display: flex;
-    align-items: center;
-
-    line-height: 30px;
-    font-size: 14px;
-    padding-left: 30px;
-    padding-right: 10px;
-    list-style-position: inside;
-    width: 230px;
-    text-transform: none;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
-
-.listGrid{
-    display: grid;
-    display: -ms-grid;
-    -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
-    align-items: center;
+.itemDisplay .itemPanel #addToCartButton{
+    font-family: 'bebasNeueImport';
+    font-size: 17px;
+}
+.itemDisplay .itemPanel{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    font-family: "bebasNeueImport";
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    box-sizing: border-box;
 }

@@ -110,7 +110,7 @@ body{
 .itemDisplay ul li{
     background-color: rgba(208, 226, 235, 0.705); 
     border: 3px solid rgba(157, 167, 172, 0.705); 
-    min-width: 100%;
+    max-width: 100%;
 }
 .itemDisplay ul li img{
     width: 200px;

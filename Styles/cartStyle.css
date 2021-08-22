@@ -119,6 +119,11 @@ body{
 #itemsList #deleteBtn{
     float: right;
     vertical-align: middle;
-    margin-top: 0.7%;
+    margin-top: 0.8%;
     margin-left: 100px;
+    background: none;
+    border: none;
 }
+/* #itemsList #deleteBtnImg{
+    
+} */

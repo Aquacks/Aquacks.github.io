@@ -1,10 +1,14 @@
 window.addEventListener('load', function () {
-    printLength()
+    updateCart()
 })
-function printLength(){
+function updateCart(){
     for(var i = 0; i < localStorage.length; i++){
         var ul = document.getElementById("itemsList")
         var li = document.createElement("li")
+
+        var h2 = document.createElement("h2")
+        h2.setAttribute("id", "price")
+        h2.innerText = localStorage.getItem("cart"+cartN).split(",").pop()
 
         var cartN = i + 1
 

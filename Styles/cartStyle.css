@@ -101,8 +101,15 @@ body{
 #itemsList{
     font-size: 60px;
     font-family: "bebasNeueImport";
+    list-style-position: inside;
 }
 #itemsList li{
     background-color: rgba(208, 226, 235, 0.705);
     border: 3px solid gray;
+}
+#itemsList #price{
+    float: right;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(32, 32, 32);
 }

@@ -7,7 +7,7 @@ for (var i = 0; i < addItemButton.length; i++){
     var button = addItemButton[i]
     button.addEventListener("click", function(){
         console.log("clicked")
-        if(cartN < 13){
+        if(cartN < 12){
             cartN = cartN + 1
             var itemName = button.parentElement.getElementsByTagName("h1") 
             var itemPrice = button.parentElement.getElementsByTagName("h2")

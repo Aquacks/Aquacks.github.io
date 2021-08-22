@@ -6,7 +6,9 @@ function printLength(){
         var ul = document.getElementById("itemsList")
         var li = document.createElement("li")
 
+        var cartN = i + 1
+
         ul.appendChild(li)
-        li.innerText = localStorage.getItem[i+1]
+        li.innerText = localStorage.getItem("cart"+cartN)
     }
 }

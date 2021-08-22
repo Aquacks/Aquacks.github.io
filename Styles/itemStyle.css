@@ -114,7 +114,6 @@ body{
     break-inside: avoid-column;
     margin-bottom: 20px;
     overflow: hidden;
-    text-align: center;
 }
 .itemDisplay ul li img{
     width: 300px;
@@ -136,9 +135,11 @@ body{
     font-size: 28px;
     background-color: rgb(13, 108, 163);
     float: right;
+    margin: 0px 0px;
 }
 .itemDisplay ul li h2{
     font-family: 'bebasNeueImport';
     font-size: 28px;
     float: left;
+    margin: 0px 0px;
 }

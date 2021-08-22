@@ -5,7 +5,7 @@ for (var i = 0; i < addItemButton.length; i++){
     button.addEventListener("click", function(){
         console.log("clicked")
         var cart1 = button.parentElement.getElementsByTagName("h1")
-        localStorage.setItem("cart1", cart1.toString())
+        localStorage.setItem("cart1", cart1[0])
     })
 }
 

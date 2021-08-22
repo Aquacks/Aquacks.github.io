@@ -135,11 +135,11 @@ body{
     font-size: 28px;
     background-color: rgb(13, 108, 163);
     float: right;
-    margin: 0px 80px;
+    margin-right: 80px;
 }
 .itemDisplay ul li h2{
     font-family: 'bebasNeueImport';
     font-size: 28px;
     float: left;
-    margin: 0px 80px;
+    margin-left: 80px;
 }

@@ -7,7 +7,8 @@ function updateCart(){
         var li = document.createElement("li")
 
         var h2 = document.createElement("h2")
-        var deleteBtn = document.createElement("img")
+        var deleteBtn = document.createElement("button")
+        var deleteBtnImg = document.createElement("img")
 
         var cartN = i + 1
 
@@ -16,10 +17,14 @@ function updateCart(){
         text = text.split(",").shift()
         li.innerText = text
 
-        deleteBtn.setAttribute("src","../Assets/delete.png")
+        deleteBtn.setAttribute("")
         deleteBtn.setAttribute("id", "deleteBtn")
-        deleteBtn.setAttribute("width", "50px")
         li.appendChild(deleteBtn)
+
+        deleteBtnImg.setAttribute("src","../Assets/delete.png")
+        deleteBtnImg.setAttribute("id", "deleteBtnImg")
+        deleteBtnImg.setAttribute("width", "50px")
+        deleteBtn.appendChild(deleteBtnImg)
         
         h2.setAttribute("id", "price")
         li.appendChild(h2)

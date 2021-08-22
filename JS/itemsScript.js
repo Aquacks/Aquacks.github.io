@@ -6,7 +6,7 @@ for (var i = 0; i < addItemButton.length; i++){
         console.log("clicked")
         var itemName = button.parentElement.getElementsByTagName("h1") 
         var itemPrice = button.parentElement.getElementsByTagName("h2")
-        localStorage.setItem("cart1", itemName[0].innerText.concat(",").concat(itemPrice[0]))  
+        localStorage.setItem("cart1", itemName[0].innerText.concat(",").concat(itemPrice[0].innerText))  
     })
 }
 

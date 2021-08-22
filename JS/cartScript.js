@@ -34,5 +34,5 @@ function updateCart(){
     }
 }
 function removeItemFromCart(){
-
+    console.log("remove")
 }

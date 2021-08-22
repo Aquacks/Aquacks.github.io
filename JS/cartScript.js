@@ -2,5 +2,7 @@ window.addEventListener('load', function () {
     printLength()
 })
 function printLength(){
-    console.log("stupido")
+    for(var i = 0; i < localStorage.length; i++){
+        console.log(i)
+    }
 }

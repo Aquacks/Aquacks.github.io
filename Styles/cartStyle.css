@@ -123,7 +123,11 @@ body{
     margin-left: 100px;
     background: none;
     border: none;
+    transition: 0.1s;
 }
-/* #itemsList #deleteBtnImg{
-    
-} */
+#itemsList #deleteBtn:hover{
+    filter: brightness(1.4);
+}
+#itemsList #deleteBtn:active{
+    width: 45px;
+}

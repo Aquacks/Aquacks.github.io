@@ -7,6 +7,6 @@ function printLength(){
         var li = document.createElement("li")
 
         ul.appendChild(li)
-        li.innerText = localStorage[i]
+        li.innerText = localStorage.getItem[i+1]
     }
 }

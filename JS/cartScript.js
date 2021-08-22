@@ -11,14 +11,14 @@ function updateCart(){
 
         var cartN = i + 1
 
-        deleteBtn.setAttribute("src","../Assets/delete.png")
-        deleteBtn.setAttribute("id", "deleteBtn")
-        li.appendChild(deleteBtn)
-
         ul.appendChild(li)
         var text = localStorage.getItem("cart"+cartN)
         text = text.split(",").shift()
         li.innerText = text
+
+        deleteBtn.setAttribute("src","../Assets/delete.png")
+        deleteBtn.setAttribute("id", "deleteBtn")
+        li.appendChild(deleteBtn)
         
         h2.setAttribute("id", "price")
         li.appendChild(h2)

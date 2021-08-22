@@ -116,3 +116,7 @@ body{
     margin: 0px 0px;
     margin-top: 0.7%;
 }
+#itemsList #deleteBtn{
+    float: right;
+    vertical-align: middle;
+}

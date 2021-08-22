@@ -136,6 +136,7 @@ body{
     background-color: rgb(13, 108, 163);
     float: right;
     margin: 0px 60px;
+    transition: 0.2s;
 }
 .itemDisplay ul li button:active{
     color: white;

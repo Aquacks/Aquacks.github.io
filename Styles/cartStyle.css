@@ -97,3 +97,12 @@ body{
     transform: translateY(4px);
     transform: translateX(4px);
 }
+
+#itemList{
+    font-size: 60px;
+    font-family: "bebasNeueImport";
+}
+#itemList li{
+    background-color: rgba(208, 226, 235, 0.705);
+    border: 3px solid gray;
+}

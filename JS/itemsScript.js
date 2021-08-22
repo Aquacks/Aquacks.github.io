@@ -1,6 +1,5 @@
 var addItemButton = document.getElementsByClassName("addToCartBtn")
 console.log(addItemButton)
-
 var cartN = 0
 
 for (var i = 0; i < addItemButton.length; i++){

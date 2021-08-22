@@ -129,5 +129,5 @@ body{
     filter: brightness(1.4);
 }
 #itemsList #deleteBtn:active{
-    width: 45px;
+    filter: drop-shadow(-5px 4px 1px gray);
 }

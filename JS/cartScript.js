@@ -1,6 +1,7 @@
 window.addEventListener('load', function () {
     updateCart()
 })
+var cartN
 function updateCart(){
     for(var i = 0; i < localStorage.length; i++){
         var ul = document.getElementById("itemsList")
@@ -10,7 +11,7 @@ function updateCart(){
         var deleteBtn = document.createElement("button")
         var deleteBtnImg = document.createElement("img")
 
-        var cartN = i + 1
+        cartN = i + 1
 
         ul.appendChild(li)
         var text = localStorage.getItem("cart"+cartN)
@@ -33,7 +34,7 @@ function updateCart(){
         h2.innerText = text2
     }
 }
-function removeItemFromCart(cartN){
+function removeItemFromCart(cartNumbr){
     console.log("remove")
-    localStorage.removeItem("cart"+cartN)
+    localStorage.removeItem("cart"+cartNumbr)
 }

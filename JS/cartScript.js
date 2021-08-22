@@ -10,7 +10,7 @@ function printLength(){
 
         ul.appendChild(li)
         var text = localStorage.getItem("cart"+cartN)
-        text = text.split(",").pop()
+        text = text.split(",").shift()
         li.innerText = text
     }
 }

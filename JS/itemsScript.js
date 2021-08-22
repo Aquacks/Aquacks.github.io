@@ -12,6 +12,7 @@ for (var i = 0; i < addItemButton.length; i++){
             var itemPrice = button.parentElement.getElementsByTagName("h2")
             localStorage.setItem("cart"+cartN, itemName[0].innerText.concat(",").concat(itemPrice[0].innerText)) 
         } 
+        else alert("Maximum of 12 shulkers per order")
     })
 }
 

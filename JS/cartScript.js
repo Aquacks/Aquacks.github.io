@@ -7,8 +7,13 @@ function updateCart(){
         var li = document.createElement("li")
 
         var h2 = document.createElement("h2")
+        var deleteBtn = document.createElement("img")
 
         var cartN = i + 1
+
+        deleteBtn.setAttribute("src","../Assets/delete.png")
+        deleteBtn.setAttribute("id", "deleteBtn")
+        li.appendChild(deleteBtn)
 
         ul.appendChild(li)
         var text = localStorage.getItem("cart"+cartN)

@@ -18,6 +18,7 @@ function updateCart(){
 
         deleteBtn.setAttribute("src","../Assets/delete.png")
         deleteBtn.setAttribute("id", "deleteBtn")
+        deleteBtn.setAttribute("width", "50px")
         li.appendChild(deleteBtn)
         
         h2.setAttribute("id", "price")

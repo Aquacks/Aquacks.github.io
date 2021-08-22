@@ -98,11 +98,11 @@ body{
     transform: translateX(4px);
 }
 
-#itemList{
+#itemsList{
     font-size: 60px;
     font-family: "bebasNeueImport";
 }
-#itemList li{
+#itemsList li{
     background-color: rgba(208, 226, 235, 0.705);
     border: 3px solid gray;
 }

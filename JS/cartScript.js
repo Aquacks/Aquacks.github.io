@@ -17,7 +17,7 @@ function updateCart(){
         text = text.split(",").shift()
         li.innerText = text
 
-        deleteBtn.setAttribute("")
+        deleteBtn.setAttribute("onclick", "removeItemFromCart()")
         deleteBtn.setAttribute("id", "deleteBtn")
         li.appendChild(deleteBtn)
 
@@ -32,4 +32,7 @@ function updateCart(){
         text2 = text2.split(",").pop()
         h2.innerText = text2
     }
+}
+function removeItemFromCart(){
+
 }

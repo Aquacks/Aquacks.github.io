@@ -6,6 +6,8 @@ function updateCart(){
         var ul = document.getElementById("itemsList")
         var li = document.createElement("li")
 
+        var h2 = document.createElement("h2")
+
         var cartN = i + 1
 
         ul.appendChild(li)
@@ -13,7 +15,6 @@ function updateCart(){
         text = text.split(",").shift()
         li.innerText = text
         
-        var h2 = document.createElement("h2")
         h2.setAttribute("id", "price")
         li.appendChild(h2)
         var text2 = localStorage.getItem("cart"+cartN)

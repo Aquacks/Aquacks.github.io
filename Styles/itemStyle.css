@@ -137,6 +137,10 @@ body{
     float: right;
     margin: 0px 60px;
 }
+.itemDisplay ul li button:active{
+    color: white;
+    background-color: rgb(59, 158, 216);
+}
 .itemDisplay ul li h2{
     font-family: 'bebasNeueImport';
     font-size: 28px;

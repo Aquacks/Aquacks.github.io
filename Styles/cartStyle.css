@@ -101,7 +101,7 @@ body{
 #itemsList{
     font-size: 60px;
     font-family: "bebasNeueImport";
-    list-style-position: inside;
+    list-style-type: none;
 }
 #itemsList li{
     background-color: rgba(208, 226, 235, 0.705);
@@ -112,4 +112,6 @@ body{
     text-align: right;
     font-size: 50px;
     color: rgb(32, 32, 32);
+    margin: 0px 0px;
+    margin-top: 0.7%;
 }

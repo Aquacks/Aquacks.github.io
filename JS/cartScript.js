@@ -3,6 +3,10 @@ window.addEventListener('load', function () {
 })
 function printLength(){
     for(var i = 0; i < localStorage.length; i++){
-        console.log(i)
+        var ul = document.getElementById("itemsList")
+        var li = document.createElement("li")
+
+        ul.appendChild(li)
+        li.innerText = localStorage[i]
     }
 }

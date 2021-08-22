@@ -1,4 +1,4 @@
-var cartList = document.getElementsById("content1")
+var cartList = document.getElementById("content1")
 console.log(cartList)
 
 for(var i = 0; localStorage.length; ++i){

@@ -7,6 +7,7 @@ function updateCart(){
         var li = document.createElement("li")
 
         var h2 = document.createElement("h2")
+        li.appendChild(h2)
         h2.setAttribute("id", "price")
         var text2 = localStorage.getItem("cart"+cartN)
         text2 = text2.split(",").pop()

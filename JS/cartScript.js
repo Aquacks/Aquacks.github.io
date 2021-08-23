@@ -15,8 +15,7 @@ function createItemEntry(){
 
         ul.appendChild(li)
         var text = localStorage.getItem("item"+itemN)
-        text = text.split(",")
-        text = text.shift()
+        text = text.split(",").shift()
         li.innerText = text
 
         deleteBtn.setAttribute("class", "deleteBtn")
@@ -50,8 +49,7 @@ function removeFromLocal(btnTarget){
     for(var i = 0; i < localStorage.length; i++){
         var ritemN = i + 1
         var storageGet = localStorage.getItem("item"+ritemN)
-        storageGet = storageGet.split(",")
-        storageGet = storageGet.shift()
+        storageGet = storageGet.split(",").shift()
         if(storageGet.includes(btnTarget.parentElement.innerText)){
             localStorage.removeItem("item"+ritemN)
             console.log("removed")

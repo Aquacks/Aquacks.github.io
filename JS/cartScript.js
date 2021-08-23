@@ -17,7 +17,7 @@ function updateCart(){
         text = text.split(",").shift()
         li.innerText = text
 
-        deleteBtn.setAttribute("onclick", "removeItemFromCart()")
+        deleteBtn.setAttribute("onclick", "removeItemFromCart(self)")
         deleteBtn.setAttribute("id", "deleteBtn")
         li.appendChild(deleteBtn)
 
@@ -33,7 +33,7 @@ function updateCart(){
         h2.innerText = text2
     }
 }
-function removeItemFromCart(){
+function removeItemFromCart(listItem){
     console.log("remove")
-    localStorage.removeItem()
+    localStorage.removeItem(listItem)
 }

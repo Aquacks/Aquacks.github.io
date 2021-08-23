@@ -7,8 +7,8 @@ for (var i = 0; i < addItemButton.length; i++){
     button.addEventListener("click", function(){
         console.log("clicked")
         if(localStorage.length < 12){
-            var itemName = button[0].parentElement.getElementsByTagName("h1") 
-            var itemPrice = button[0].parentElement.getElementsByTagName("h2")
+            var itemName = button[i].parentElement.getElementsByTagName("h1") 
+            var itemPrice = button[i].parentElement.getElementsByTagName("h2")
             console.log(itemName)
             localStorage.setItem("item"+(localStorage.length + 1), itemName[0].innerText.concat(",").concat(itemPrice[0].innerText)) 
         } 

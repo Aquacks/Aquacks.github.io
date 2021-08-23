@@ -3,10 +3,6 @@ window.addEventListener('load', function () {
 })
 function updateCart(){
     for(var i = 0; i < localStorage.length; i++){
-        addCartItem()
-    }
-}
-function addCartItem(){
         var ul = document.getElementById("itemsList")
         var li = document.createElement("li")
 
@@ -35,7 +31,7 @@ function addCartItem(){
         var text2 = localStorage.getItem("cart"+cartN)
         text2 = text2.split(",").pop()
         h2.innerText = text2
-    
+    }
 }
 function removeItemFromCart(){
     console.log("remove")

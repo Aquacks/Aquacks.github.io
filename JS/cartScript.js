@@ -41,7 +41,16 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             removeBtnClicked.parentElement.parentElement.remove()
+            removeFromLocal(removeBtnClicked.parentElement.parentElement.querySelector("h1").innerText)
             console.log("removed")
         })
+    }
+}
+function removeFromLocal(removeTarget){
+    for(var i = 0; i < localStorage.length; i++){
+        var ritemN = i + 1
+        if(localStorage.getItem("item", ritemN).includes(removeTarget)){
+            localStorage.removeItem("item", ritemN)
+        }
     }
 }

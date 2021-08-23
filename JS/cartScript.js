@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
-    updateCart()
+    createItemEntry()
 })
-function updateCart(){
+function createItemEntry(){
     for(var i = 0; i < localStorage.length; i++){
         var ul = document.getElementById("itemsList")
         var li = document.createElement("li")
@@ -17,8 +17,7 @@ function updateCart(){
         text = text.split(",").shift()
         li.innerText = text
 
-        deleteBtn.setAttribute("onclick", "removeItemFromCart(self)")
-        deleteBtn.setAttribute("id", "deleteBtn")
+        deleteBtn.setAttribute("class", "deleteBtn")
         li.appendChild(deleteBtn)
 
         deleteBtnImg.setAttribute("src","../Assets/delete.png")
@@ -33,7 +32,13 @@ function updateCart(){
         h2.innerText = text2
     }
 }
-function removeItemFromCart(listItem){
-    console.log("remove")
-    localStorage.removeItem(listItem)
+var removeCartBtns = document.getElementsByClassName("deleteBtn")
+console.log(removeCartBtn)
+for(var i = 0; i < removeCartBtn.length; i++){
+    var removeButton = removeCartBtns[i]
+    removeButton.addEventListener("click", function(event) {
+        var removeBtnClicked = event.target
+        removeBtnClicked.parentElement.remove()
+    })
+
 }

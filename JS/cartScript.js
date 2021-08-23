@@ -10,10 +10,10 @@ function updateCart(){
         var deleteBtn = document.createElement("button")
         var deleteBtnImg = document.createElement("img")
 
-        var cartN = i + 1
+        var itemN = i + 1
 
         ul.appendChild(li)
-        var text = localStorage.getItem("cart"+cartN)
+        var text = localStorage.getItem("item"+itemN)
         text = text.split(",").shift()
         li.innerText = text
 
@@ -28,7 +28,7 @@ function updateCart(){
         
         h2.setAttribute("id", "price")
         li.appendChild(h2)
-        var text2 = localStorage.getItem("cart"+cartN)
+        var text2 = localStorage.getItem("item"+itemN)
         text2 = text2.split(",").pop()
         h2.innerText = text2
     }

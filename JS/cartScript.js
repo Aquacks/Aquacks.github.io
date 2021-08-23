@@ -38,8 +38,7 @@ for(var i = 0; i < removeCartBtns.length; i++){
     var removeButton = removeCartBtns[i]
     removeButton.addEventListener("click", function(event) {
         var removeBtnClicked = event.target
-        removeBtnClicked.parentElement.remove()
+        removeBtnClicked.parentElement.parentElement.remove()
         console.log("removed")
     })
-
 }

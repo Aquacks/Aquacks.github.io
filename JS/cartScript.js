@@ -49,7 +49,7 @@ function runDeleteButtons(){
 function removeFromLocal(removeTarget){
     for(var i = 0; i < localStorage.length; i++){
         var ritemN = i + 1
-        if(localStorage.getItem("item", ritemN).includes("monkey")){
+        if((localStorage.getItem("item", ritemN).split(",").shift) == removeBtnClicked.parentElement.innerText){
             localStorage.removeItem("item", ritemN)
         }
     }

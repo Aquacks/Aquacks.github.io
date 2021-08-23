@@ -41,7 +41,7 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             removeBtnClicked.parentElement.parentElement.remove()
-            var itemToRemoveFromLocal = removeBtnClicked.parentElement.parentElement.innerText
+            var itemToRemoveFromLocal = removeBtnClicked.parentElement.innerText
             removeFromLocal(itemToRemoveFromLocal)
             console.log("removed")
         })
@@ -50,7 +50,7 @@ function runDeleteButtons(){
 function removeFromLocal(removeTarget){
     for(var i = 0; i < localStorage.length; i++){
         var ritemN = i + 1
-        if(localStorage.getItem("item", ritemN).includes(removeTarget)){
+        if(localStorage.getItem("item", ritemN).includes(removeTarget.toString())){
             localStorage.removeItem("item", ritemN)
         }
     }

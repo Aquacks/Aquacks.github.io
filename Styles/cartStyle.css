@@ -116,7 +116,7 @@ body{
     margin: 0px 0px;
     margin-top: 0.7%;
 }
-#itemsList #deleteBtn{
+#itemsList .deleteBtn{
     float: right;
     vertical-align: middle;
     margin-top: 0.8%;
@@ -125,9 +125,9 @@ body{
     border: none;
     transition: 0.1s;
 }
-#itemsList #deleteBtn:hover{
+#itemsList .deleteBtn:hover{
     filter: brightness(1.4);
 }
-#itemsList #deleteBtn:active{
+#itemsList .deleteBtn:active{
     filter: drop-shadow(0px 5px 1px gray);
 }

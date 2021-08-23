@@ -1,5 +1,6 @@
 window.addEventListener('load', function () {
     createItemEntry()
+    runDeleteButtons()
 })
 function createItemEntry(){
     for(var i = 0; i < localStorage.length; i++){
@@ -32,13 +33,15 @@ function createItemEntry(){
         h2.innerText = text2
     }
 }
-var removeCartBtns = document.getElementsByClassName("deleteBtn")
-console.log(removeCartBtns)
-for(var i = 0; i < removeCartBtns.length; i++){
-    var removeButton = removeCartBtns[i]
-    removeButton.addEventListener("click", function(event) {
-        var removeBtnClicked = event.target
-        removeBtnClicked.parentElement.parentElement.remove()
-        console.log("removed")
-    })
+function runDeleteButtons(){
+    var removeCartBtns = document.getElementsByClassName("deleteBtn")
+    console.log(removeCartBtns)
+    for(var i = 0; i < removeCartBtns.length; i++){
+        var removeButton = removeCartBtns[i]
+        removeButton.addEventListener("click", function(event) {
+            var removeBtnClicked = event.target
+            removeBtnClicked.parentElement.parentElement.remove()
+            console.log("removed")
+        })
+    }
 }

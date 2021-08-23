@@ -12,7 +12,7 @@ for (var i = 0; i < addItemButton.length; i++){
             console.log(itemName)
             var writeName = itemName.innerText
             var writePrice = itemPrice.innerText
-            localStorage.setItem("item"+(localStorage.length + 1), (writeName + writePrice))
+            localStorage.setItem("item"+(localStorage.length + 1), String(writeName + writePrice))
         } 
         else alert("Maximum of 12 shulkers per order")
     })

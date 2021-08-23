@@ -41,7 +41,7 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             removeBtnClicked.parentElement.parentElement.remove()
-            removeFromLocal(removeBtnClicked.parentElement.parentElement.querySelector("h1").innerText)
+            removeFromLocal(removeBtnClicked.parentElement.querySelector("h1").innerText)
             console.log("removed")
         })
     }

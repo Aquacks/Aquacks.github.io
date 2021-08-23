@@ -33,7 +33,7 @@ function createItemEntry(){
     }
 }
 var removeCartBtns = document.getElementsByClassName("deleteBtn")
-console.log(removeCartBtn)
+console.log(removeCartBtns)
 for(var i = 0; i < removeCartBtn.length; i++){
     var removeButton = removeCartBtns[i]
     removeButton.addEventListener("click", function(event) {

@@ -52,5 +52,6 @@ function removeFromLocal(btnTarget){
             localStorage.removeItem("item"+ritemN)
             console.log("removed")
         }
+        console.log("cycle")
     }
 }

@@ -1,11 +1,11 @@
 window.addEventListener('load', function () {
     addToLocal()
-    var addItemButton = document.getElementsByClassName("addToCartBtn")
-    console.log(addItemButton)
-    var cartN = 0
 })
 
 function addToLocal(){
+    var addItemButton = document.getElementsByClassName("addToCartBtn")
+    console.log(addItemButton)
+    var cartN = 0
     for (var i = 0; i < addItemButton.length; i++){
         var button = addItemButton[i]
         button.addEventListener("click", function(){

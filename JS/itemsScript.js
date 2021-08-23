@@ -7,10 +7,10 @@ for (var i = 0; i < addItemButton.length; i++){
     button.addEventListener("click", function(){
         console.log("clicked")
         if(localStorage.length < 12){
-            var itemName = button.parentElement.getElementsByTagName("h1")[i].innerText
-            var itemPrice = button.parentElement.getElementsByTagName("h2")[i].innerText
-            console.log(itemName)
-            console.log(itemPrice)
+            var itemsName = button.parentElement.getElementsByTagName("h1")
+            var itemsPrice = button.parentElement.getElementsByTagName("h2")
+            var itemName = itemsName[i].innerText
+            var itemPrice = itemsPrice[i].innerText
             localStorage.setItem("item"+(localStorage.length + 1), itemName)
         } 
         else alert("Maximum of 12 shulkers per order")

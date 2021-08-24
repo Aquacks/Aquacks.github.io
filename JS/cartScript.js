@@ -52,8 +52,8 @@ function removeFromLocal(btnTarget){
         var storageGet = localStorage.getItem("item"+ritemN)
         storageGet = storageGet.split(",").shift()
         if(storageGet.includes(btnTarget.parentElement.innerText)){
+            console.log("removed"+localStorage.getItem("item"+ritemN))
             localStorage.removeItem("item"+ritemN)
-            console.log("removed")
         }
         console.log("cycle")
     }

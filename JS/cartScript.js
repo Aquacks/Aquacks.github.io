@@ -43,9 +43,10 @@ function runDeleteButtons(){
         var removeButton = removeCartBtns[i]
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
+            console.log(removeBtnClicked)
             removeBtnClicked.parentElement.parentElement.remove()
-            if((localStorage.getItem("item")+removeBtnClicked.id()).includes(removeBtnClicked.parentElement.parentElement.innerText)){
-                localStorage.remove("item", removeBtnClicked.id())
+            if((localStorage.getItem("item")+removeBtnClicked.id).includes(removeBtnClicked.parentElement.parentElement.innerText)){
+                localStorage.remove("item", removeBtnClicked.id
             }
         })
     }

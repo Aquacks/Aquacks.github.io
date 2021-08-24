@@ -46,10 +46,11 @@ function runDeleteButtons(){
             console.log(removeBtnClicked)
             console.log(removeBtnClicked.parentElement)
             removeBtnClicked.parentElement.parentElement.remove()
-            localStorage.removeItem("item", removeBtnClicked.parentElement.id)
-            
+            localStorage.removeItem("item"+removeBtnClicked.parentElement.id)
+            console.log("removed")
+
             // if((localStorage.getItem("item")+removeBtnClicked.parentElement.id).includes(removeBtnClicked.parentElement.parentElement.innerText)){
-            //     localStorage.remove("item", removeBtnClicked.parentElement.id)
+            //     localStorage.remove("item"+removeBtnClicked.parentElement.id)
             // }
         })
     }

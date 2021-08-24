@@ -100,7 +100,7 @@ body{
 
 #itemsList{
     font-size: 60px;
-    font-family: "bebasNeueImport";
+    font-family: "joystiximport";
     list-style-type: none;
 }
 #itemsList li{
@@ -112,6 +112,7 @@ body{
     float: right;
     text-align: right;
     font-size: 50px;
+    font-family: "bebasNeueImport";
     color: rgb(32, 32, 32);
     margin: 0px 0px;
     margin-top: 0.7%;

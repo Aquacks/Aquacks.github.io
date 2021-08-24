@@ -50,6 +50,7 @@ function runDeleteButtons(){
 function removeFromLocal(btnTarget){
     for(var i = 0; i < localStorage.length; i++){
         var ritemN = i + 1
+        if(localStorage.getItem("item"+ritemN) != null){
         var storageGet = localStorage.getItem("item"+ritemN)
         storageGet = storageGet.split(",").shift()
         console.log("storageGet: "+storageGet)
@@ -57,6 +58,7 @@ function removeFromLocal(btnTarget){
         if(btnTarget.parentElement.parentElement.innerText.includes(storageGet)){
             localStorage.removeItem("item"+ritemN)
             console.log("removed")
+        }
         }
         console.log("cycle")
     }

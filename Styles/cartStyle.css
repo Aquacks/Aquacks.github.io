@@ -108,9 +108,7 @@ body{
     border: 3px solid gray;
     margin-right: 40px;
     margin-top: 20px;
-}
-#itemsList li #text{
-    margin-left: 40px;
+    padding-left: 20px;
 }
 #itemsList #price{
     float: right;

@@ -20,6 +20,7 @@ function createItemEntries(){
             li.innerText = text
 
             deleteBtn.setAttribute("class", "deleteBtn")
+            deleteBtn.setAttribute("id", itemN)
             li.appendChild(deleteBtn)
 
             deleteBtnImg.setAttribute("src","../Assets/delete.png")
@@ -43,6 +44,9 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             removeBtnClicked.parentElement.parentElement.remove()
+            if((localStorage.getItem("item")+removeBtnClicked.id()).includes(removeBtnClicked.parentElement.parentElement.innerText)){
+                localStorage.remove("item", removeBtnClicked.id())
+            }
         })
     }
 }

@@ -15,7 +15,7 @@ function createItemEntry(){
 
         ul.appendChild(li)
         var text = localStorage.getItem("item"+itemN)
-        text = text.split(",").shift()
+        text = (text.split(",")).shift()
         li.innerText = text
 
         deleteBtn.setAttribute("class", "deleteBtn")

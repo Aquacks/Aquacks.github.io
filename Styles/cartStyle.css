@@ -99,7 +99,7 @@ body{
 }
 
 #itemsList{
-    font-size: 60px;
+    font-size: 45px;
     font-family: roboto,Helvetica,Arial,sans-serif;
     list-style-type: none;
 }
@@ -109,6 +109,8 @@ body{
     margin-right: 40px;
     margin-top: 20px;
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #itemsList #price{
     float: right;

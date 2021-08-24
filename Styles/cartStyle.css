@@ -109,7 +109,7 @@ body{
     margin-right: 40px;
     margin-top: 20px;
 }
-#itemsList li text{
+#itemsList li #text{
     margin-left: 40px;
 }
 #itemsList #price{

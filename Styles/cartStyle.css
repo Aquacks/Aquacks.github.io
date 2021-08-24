@@ -100,7 +100,7 @@ body{
 
 #itemsList{
     font-size: 60px;
-    font-family: "Arial";
+    font-family: "roboto,Helvetica,Arial,sans-serif";
     list-style-type: none;
 }
 #itemsList li{

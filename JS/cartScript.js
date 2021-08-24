@@ -46,7 +46,7 @@ function runDeleteButtons(){
             console.log(removeBtnClicked)
             removeBtnClicked.parentElement.parentElement.remove()
             if((localStorage.getItem("item")+removeBtnClicked.id).includes(removeBtnClicked.parentElement.parentElement.innerText)){
-                localStorage.remove("item", removeBtnClicked.id
+                localStorage.remove("item", removeBtnClicked.id)
             }
         })
     }

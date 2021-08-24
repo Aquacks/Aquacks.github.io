@@ -15,6 +15,7 @@ function createItemEntry(){
 
         ul.appendChild(li)
         var text = localStorage.getItem("item"+itemN)
+        console.log(text)
         text = (text.split(",")).shift()
         li.innerText = text
 

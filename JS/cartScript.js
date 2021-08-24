@@ -44,6 +44,8 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             console.log(removeBtnClicked)
+            console.log(removeBtnClicked.id)
+            console.log(localStorage.getItem("item")+removeBtnClicked.id)
             removeBtnClicked.parentElement.parentElement.remove()
             if((localStorage.getItem("item")+removeBtnClicked.id).includes(removeBtnClicked.parentElement.parentElement.innerText)){
                 localStorage.remove("item", removeBtnClicked.id)

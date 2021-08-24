@@ -43,23 +43,13 @@ function runDeleteButtons(){
         removeButton.addEventListener("click", function(event) {
             var removeBtnClicked = event.target
             removeBtnClicked.parentElement.parentElement.remove()
-            removeFromLocal(removeBtnClicked)
+            removeFromLocal(removeBtnClicked, i)
         })
     }
 }
-function removeFromLocal(btnTarget){
-    for(var i = 0; i < localStorage.length; i++){
-        var ritemN = i + 1
-        if(localStorage.getItem("item"+ritemN) != null){
-        var storageGet = localStorage.getItem("item"+ritemN)
-        storageGet = storageGet.split(",").shift()
-        console.log("storageGet: "+storageGet)
-        console.log("targetText: "+btnTarget.parentElement.parentElement.innerText)
-        if(btnTarget.parentElement.parentElement.innerText.includes(storageGet)){
-            localStorage.removeItem("item"+ritemN)
-            console.log("removed")
-        }
-        }
-        console.log("cycle")
+function removeFromLocal(btnTarget, i){
+    var text = btnTarget.parentElement.parentElement.innerText
+    if(localStorage.getItem("item"+(i+1)).includes(text)){
+        localStorage.removeItem("item"+(i+1))
     }
 }

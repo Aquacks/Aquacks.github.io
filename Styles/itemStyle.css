@@ -135,7 +135,7 @@ body{
     font-size: 28px;
     background-color: rgb(13, 108, 163);
     float: right;
-    margin: 0px 60px;
+    margin: 0px 0px;
     transition: 0.2s;
 }
 .itemDisplay ul li button:active{

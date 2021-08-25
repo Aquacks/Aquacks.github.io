@@ -1,6 +1,7 @@
 window.addEventListener('load', function () {
     createItemEntries()
     runDeleteButtons()
+    runDeliveryModal()
 })
 function createItemEntries(){
     for(var i = 0; i < 13; i++){//todo: length of storage does not equal item entry number
@@ -50,5 +51,22 @@ function runDeleteButtons(){
             localStorage.removeItem(("item"+removeBtnClicked.parentElement.id)) //remove item
             console.log("removed")
         })
+    }
+}
+function runDeliveryModal(){
+    var modal = document.getElementById("deliveryModal");
+    var btn = document.getElementById("checkoutBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
     }
 }

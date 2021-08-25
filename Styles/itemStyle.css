@@ -114,6 +114,7 @@ body{
     break-inside: avoid-column;
     margin-bottom: 20px;
     overflow: hidden;
+    padding-bottom: 2%;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -144,6 +145,9 @@ body{
     margin: 0px 0px;
     transition: 0.2s;
     margin-right: 15%;
+}
+.itemDisplay ul li button:hover{
+    filter: brightness(1.4);
 }
 .itemDisplay ul li button:active{
     color: white;

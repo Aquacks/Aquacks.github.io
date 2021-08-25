@@ -115,7 +115,7 @@ body{
     transition: 0.2s;
 }
 #itemsList li:hover{
-    background-color: rgba(207, 218, 223, 0.705);
+    background-color: rgba(230, 230, 230, 0.781);
 }
 #itemsList #price{
     float: right;

@@ -113,6 +113,9 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#itemsList li:hover{
+    background-color: rgba(186, 221, 238, 0.705);
+}
 #itemsList #price{
     float: right;
     vertical-align: middle;

@@ -112,6 +112,7 @@ body{
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: 0.3s;
 }
 #itemsList li:hover{
     background-color: rgba(186, 221, 238, 0.705);

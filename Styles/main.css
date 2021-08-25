@@ -129,8 +129,11 @@ body{
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
-.mainInfo text{
+.mainInfo h1{
     border: 3px solid gray;
+}
+.mainInfo p{
+    padding: 8%;
 }
 #infoTitle{
     font-size: 55px;

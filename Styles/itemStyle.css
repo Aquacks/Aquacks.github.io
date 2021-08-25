@@ -160,3 +160,8 @@ body{
     margin: 0px 0px;
     padding-left: 15%;
 }
+.tempWarning{
+    background-color: rgb(253, 67, 67);
+    font-size: 20px;
+    text-align: center;
+}

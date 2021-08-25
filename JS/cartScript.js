@@ -3,9 +3,8 @@ window.addEventListener('load', function () {
     runDeleteButtons()
 })
 function createItemEntries(){
-    for(var i = 0; i < localStorage.length; i++){
+    for(var i = 0; i < localStorage.length; i++){//todo: length of storage does not equal item entry number
         var itemN = i + 1
-        console.log("itemN "+itemN)
         if(localStorage.getItem("item"+itemN) != null){
             console.log("creating")
             var ul = document.getElementById("itemsList")

@@ -151,7 +151,8 @@ body{
     font-size: 40px;
     background-color: rgb(115, 238, 91);
     margin-right: 40px;
-    font-family: "joystiximport";
+    font-family: "bebasNeueImport";
+    transition: 0.2s;
 }
 #checkoutBtn:hover{
     color: white;

@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     runDeleteButtons()
 })
 function createItemEntries(){
-    for(var i = 0; i < 12; i++){//todo: length of storage does not equal item entry number
+    for(var i = 0; i < 13; i++){//todo: length of storage does not equal item entry number
         var itemN = i + 1
         if(localStorage.getItem("item"+itemN) != "0" || localStorage.getItem("item"+itemN) != null){
             console.log("creating")
@@ -47,7 +47,7 @@ function runDeleteButtons(){
             console.log(removeBtnClicked)
             console.log(removeBtnClicked.parentElement)
             removeBtnClicked.parentElement.parentElement.remove() //remove html entry for item
-            localStorage.setItem(("item"+removeBtnClicked.parentElement.id),"0") //set localstorage entry for item to "0"
+            localStorage.removeItem(("item"+removeBtnClicked.parentElement.id)) //remove item
             console.log("removed")
         })
     }

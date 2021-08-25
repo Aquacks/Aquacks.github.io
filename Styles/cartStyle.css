@@ -104,7 +104,7 @@ body{
     list-style-type: none;
 }
 #itemsList li{
-    background-color: rgba(208, 226, 235, 0.705);
+    background-color: rgba(196, 217, 228, 0.705);
     border: 3px solid gray;
     font-weight: bold;
     margin-right: 40px;
@@ -112,10 +112,10 @@ body{
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 #itemsList li:hover{
-    background-color: rgba(212, 225, 231, 0.705);
+    background-color: rgba(207, 218, 223, 0.705);
 }
 #itemsList #price{
     float: right;

@@ -147,7 +147,7 @@ body{
     margin-right: 15%;
 }
 .itemDisplay ul li button:hover{
-    filter: brightness(1.4);
+    background-color: rgb(59, 158, 216);
 }
 .itemDisplay ul li button:active{
     color: white;

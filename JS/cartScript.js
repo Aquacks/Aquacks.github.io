@@ -5,7 +5,7 @@ window.addEventListener('load', function () {
 function createItemEntries(){
     for(var i = 0; i < 13; i++){//todo: length of storage does not equal item entry number
         var itemN = i + 1
-        if(localStorage.getItem("item"+itemN) || localStorage.getItem("item"+itemN) != null){
+        if(localStorage.getItem("item"+itemN) != null){
             console.log("creating")
             var ul = document.getElementById("itemsList")
             var li = document.createElement("li")

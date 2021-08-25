@@ -5,7 +5,7 @@ window.addEventListener('load', function () {
 function createItemEntries(){
     for(var i = 0; i < localStorage.length; i++){
         var itemN = i + 1
-        console.log("itemN"+itemN)
+        console.log("itemN "+itemN)
         if(localStorage.getItem("item"+itemN) != null){
             console.log("creating")
             var ul = document.getElementById("itemsList")

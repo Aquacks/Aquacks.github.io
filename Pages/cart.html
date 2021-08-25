@@ -40,7 +40,13 @@
         <div id="deliveryModal" class="modal">
             <div class="deliveryModalContent">
                 <span class="close">&times;</span>
-                <p>Test</p>
+                <form action="/action_page.php">
+                    <label for="xcoord">Target X Coordinate:</label><br>
+                    <input type="number" id="xcoord" name="xcoord"><br>
+                    <label for="zcoord">Target Z Coordinate:</label><br>
+                    <input type="number" id="zcoord" name="zcoord"><br><br>
+                    <input type="submit" value="Submit">
+                </form>                
             </div>
         </div>
     </body>

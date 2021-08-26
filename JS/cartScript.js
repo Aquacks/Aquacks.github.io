@@ -71,6 +71,7 @@ function runDeliveryModal(){
     }
 }
 function getOptionsData(){
+    alert("triggered")
     console.log(document.getElementById('xcoord').value);
     console.log(document.getElementById('zcoord').value);
     return false;

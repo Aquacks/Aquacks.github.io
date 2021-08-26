@@ -73,7 +73,7 @@ function runDeliveryModal(){
 function getOptionsData(){
     console.log(document.getElementById('xcoord').value)
     console.log(document.getElementById('zcoord').value)
-    if(document.getElementById("dungeonBool").)
+    if(document.getElementById("dungeonBool"))
     console.log(selectedValue)
     return false;
 }

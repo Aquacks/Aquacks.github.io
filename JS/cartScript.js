@@ -70,8 +70,10 @@ function runDeliveryModal(){
         }
     }
 }
-function getFormData(){ 
-    var targetX=document.getElementById('xcoord').value;
-    var targetZ=document.getElementById('zcoord').value;
-    console.log(targetX+" "+targetZ)
+function getCoordData(){
+    document.getElementById('optionsForm').onsubmit = function() { 
+        console.log(document.getElementById('xcoord').value);
+        console.log(document.getElementById('zcoord').value);
+        return false;
+    };
 }

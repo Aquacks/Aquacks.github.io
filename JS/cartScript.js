@@ -2,7 +2,6 @@ window.addEventListener('load', function () {
     createItemEntries()
     runDeleteButtons()
     runDeliveryModal()
-    getCoordData()
 })
 function createItemEntries(){
     for(var i = 0; i < 13; i++){//todo: length of storage does not equal item entry number
@@ -70,11 +69,10 @@ function runDeliveryModal(){
           modal.style.display = "none";
         }
     }
-}
-function getCoordData(){
-    document.getElementById('optionsForm').onsubmit = function() { 
+    modal.onsubmit = function() {
         console.log(document.getElementById('xcoord').value);
         console.log(document.getElementById('zcoord').value);
         return false;
-    };
+    }
 }
+

@@ -40,12 +40,14 @@
         <div id="deliveryModal" class="modal">
             <div class="deliveryModalContent">
                 <span class="close">&times;</span>
-                <form action="/action_page.php">
+                <form>
                     <label for="xcoord">Target X Coordinate:</label><br>
-                    <input type="number" id="xcoord" name="xcoord"><br>
+                    <input type="text" id="xcoord" name="xcoord"><br>
                     <label for="zcoord">Target Z Coordinate:</label><br>
-                    <input type="number" id="zcoord" name="zcoord"><br><br>
-                    <input type="submit" value="Submit">
+                    <input type="text" id="zcoord" name="zcoord">
+
+                    <input type="checkbox" id="dungeonBool" name="dungeonBool" value="yes">
+                    <label for="dungeonBool">Deliver to nearby dungeon</label><br>
                 </form>                
             </div>
         </div>

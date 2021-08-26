@@ -73,4 +73,5 @@ function runDeliveryModal(){
 function getFormData(){ 
     var targetX=document.getElementById('xcoord').value;
     var targetZ=document.getElementById('zcoord').value;
+    console.log(targetX+" "+targetZ)
 }

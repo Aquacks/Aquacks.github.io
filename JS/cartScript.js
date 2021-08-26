@@ -2,6 +2,7 @@ window.addEventListener('load', function () {
     createItemEntries()
     runDeleteButtons()
     runDeliveryModal()
+    getCoordData()
 })
 function createItemEntries(){
     for(var i = 0; i < 13; i++){//todo: length of storage does not equal item entry number

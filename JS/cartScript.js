@@ -59,7 +59,7 @@ function runDeliveryModal(){
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = function() {
-        modal.style.display = "block";
+        modal.style.display = "flex";
     }
     span.onclick = function() {
         modal.style.display = "none";

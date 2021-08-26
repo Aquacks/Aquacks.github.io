@@ -66,6 +66,7 @@ body{
 #Logo:hover{
     transform: translateY(4px);
     transform: translateX(4px);
+    cursor: pointer;
 }
 
 

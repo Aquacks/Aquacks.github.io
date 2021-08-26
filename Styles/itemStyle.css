@@ -169,7 +169,7 @@ body{
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 260px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -187,4 +187,7 @@ body{
 }
 .sidenav a:hover {
     color: #f1f1f1;
+}
+.itemDisplay{
+    margin-left: 260px;
 }

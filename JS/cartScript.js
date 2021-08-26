@@ -72,8 +72,9 @@ function runDeliveryModal(){
 }
 function getOptionsData(){
     alert("triggered")
-    console.log(document.getElementById('xcoord').value);
-    console.log(document.getElementById('zcoord').value);
+    console.log(document.getElementById('xcoord').value)
+    console.log(document.getElementById('zcoord').value)
+    console.log(document.getElementById("dungeonBool").value)
     return false;
 }
 

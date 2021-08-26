@@ -69,10 +69,10 @@ function runDeliveryModal(){
           modal.style.display = "none";
         }
     }
-    modal.onsubmit = function() {
-        console.log(document.getElementById('xcoord').value);
-        console.log(document.getElementById('zcoord').value);
-        return false;
-    }
+}
+function getOptionsData(){
+    console.log(document.getElementById('xcoord').value);
+    console.log(document.getElementById('zcoord').value);
+    return false;
 }
 

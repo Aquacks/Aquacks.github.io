@@ -71,6 +71,9 @@ function runDeliveryModal(){
     }
 }
 function getOptionsData(){
+    $("#optionsForm").submit(function(e) {
+        e.preventDefault();
+    });
     alert("triggered")
     console.log(document.getElementById('xcoord').value);
     console.log(document.getElementById('zcoord').value);

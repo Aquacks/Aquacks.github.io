@@ -73,14 +73,7 @@ function runDeliveryModal(){
 function getOptionsData(){
     console.log(document.getElementById('xcoord').value)
     console.log(document.getElementById('zcoord').value)
-    const rbs = document.querySelectorAll('input[name="deliveryOption"]');
-    let selectedValue;
-    for (const rb of rbs) {
-        if (rb.checked) {
-            selectedValue = rb.value;
-            break;
-        }
-    }
+    if(document.getElementById("dungeonBool").)
     console.log(selectedValue)
     return false;
 }

@@ -40,7 +40,7 @@
         <div id="deliveryModal" class="modal">
             <div class="deliveryModalContent">
                 <span class="close">&times;</span>
-                <form>
+                <form action="javascript:getFormData()">
                     <label for="xcoord">Target X Coordinate:</label><br>
                     <input type="text" id="xcoord" name="xcoord"><br>
                     <label for="zcoord">Target Z Coordinate:</label><br>
@@ -52,7 +52,10 @@
                     <input type="checkbox" id="dungeonBool" name="dungeonBool" value="yes">
                     <label for="dungeonBool">Deliver to nearby dungeon</label><br>
 
-                    <input type="submit" id="sumbitButton" name="sumbitButton" value="Continue">
+                    <br>
+                    <br>
+
+                    <input type="submit" id="submitButton" name="submitButton" value="Continue">
                 </form>                
             </div>
         </div>

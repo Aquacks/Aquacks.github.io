@@ -190,5 +190,8 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
+#dungeonBool{
+    margin-top: 20px;
+}
 
 

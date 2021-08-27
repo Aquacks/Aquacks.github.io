@@ -192,6 +192,5 @@ body{
     margin-left: 260px;
 }
 .contentWrapper{
-    display: flex;
-    flex-direction: row;
+    display: block;
 }

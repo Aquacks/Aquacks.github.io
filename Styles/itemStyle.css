@@ -177,6 +177,8 @@ body{
     overflow-x: hidden;
     padding-top: 20px;
     float: left;
+    font-family: "joystiximport";
+    font-size: 28px;
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;

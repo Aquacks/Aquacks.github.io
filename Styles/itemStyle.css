@@ -172,12 +172,14 @@ body{
     width: auto;
     z-index: 1;
     top: 0;
+    bottom: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
     float: left;
     transition: 0.2s;
+    position: absolute;
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -196,5 +198,5 @@ body{
 }
 .contentWrapper{
     display: block;
-    height: 100%;
+    position: absolute;
 }

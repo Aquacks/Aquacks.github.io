@@ -169,7 +169,7 @@ body{
 
 .sidenav {
     height: 100%;
-    width: 260px;
+    width: 180px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -190,4 +190,8 @@ body{
 }
 .itemDisplay{
     margin-left: 260px;
+}
+.contentWrapper{
+    display: flex;
+    flex-direction: row;
 }

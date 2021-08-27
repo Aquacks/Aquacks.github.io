@@ -169,7 +169,7 @@ body{
 
 .sidenav {
     height: 100%;
-    width: 180px;
+    width: auto;
     z-index: 1;
     top: 0;
     left: 0;
@@ -177,6 +177,7 @@ body{
     overflow-x: hidden;
     padding-top: 20px;
     float: left;
+    transition: 0.2s;
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -195,4 +196,5 @@ body{
 }
 .contentWrapper{
     display: block;
+    height: 100%;
 }

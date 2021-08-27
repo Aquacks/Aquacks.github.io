@@ -177,8 +177,6 @@ body{
     overflow-x: hidden;
     padding-top: 20px;
     float: left;
-    font-family: "joystiximport";
-    font-size: 28px;
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -186,6 +184,8 @@ body{
     font-size: 25px;
     color: #818181;
     display: block;
+    font-family: "joystiximport";
+    font-size: 28px;
 }
 .sidenav a:hover {
     color: #f1f1f1;

@@ -174,7 +174,7 @@ body{
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgba(17, 17, 17, 0.678)(17, 17, 17, 0.822);
     overflow-x: hidden;
     padding-top: 20px;
     float: left;

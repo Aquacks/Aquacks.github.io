@@ -6,6 +6,10 @@
     font-family: bebasNeueImport;
     src: url("../fonts/BebasNeue-Regular.ttf");
 }
+@font-face {
+    font-family: unisans;
+    src: url("../fonts/Uni-Sans-Thin.ttf");
+}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -100,7 +104,7 @@ body{
 }
 
 .slogan{
-    font-family: 'joystiximport';
+    font-family: 'unisans';
     text-align: center;
     font-size: 30px;
     color: white;

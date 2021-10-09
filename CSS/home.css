@@ -12,4 +12,5 @@
 #bgImage {
     margin: 0px;
     padding: 0px;
+    width: max-content;
 }

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'UniSansThin';
+    src: url(/fonts/Uni-Sans-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.coverLine {
+    font-family: "UniSansThin";
+    color: white;
+}

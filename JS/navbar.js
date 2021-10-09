@@ -6,7 +6,6 @@ var queueElement = document.getElementById("queueCount");
 
 const interval = setInterval(function() {
     update();
-    Console.console.log("Cycle.");
 }, 10000);
 
 function update() {

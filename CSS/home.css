@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .coverLine {
     font-family: "UniSansThin";
     color: white;

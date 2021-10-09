@@ -1,3 +1,5 @@
+//Queue Display 
+
 var queueElement = document.getElementById("queueCount");
 
 fetch("https://2bqueue.info/queue", {mode: "no-cors"})
@@ -10,3 +12,5 @@ fetch("https://2bqueue.info/queue", {mode: "no-cors"})
     .catch(err => {
         console.error('Error: ', err);
     });
+
+// End Queue Display

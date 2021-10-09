@@ -1,3 +1,7 @@
+.navBar {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navBar ul {
     list-style-type: none;
     margin: 0;

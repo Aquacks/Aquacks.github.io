@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'UniSansThin';
+    src: url(/fonts/Uni-Sans-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navBar ul {
     list-style-type: none;
     margin: 0;
@@ -19,6 +26,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+.navBar li a #logoHome {
+    font-family: "UniSansThin";
+    font-size: 25px;
 }
   
 /* Change the link color to #111 (black) on hover */

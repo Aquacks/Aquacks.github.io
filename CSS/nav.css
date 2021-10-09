@@ -42,3 +42,14 @@
 .navBar li a:hover {
     background-color: #111;
 }
+#queueCount {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}

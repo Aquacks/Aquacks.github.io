@@ -1,6 +1,6 @@
 var queueElement = document.getElementById("queueCount");
 
-fetch("https://2bqueue.info/*")
+fetch("https://2bqueue.info/queue")
     .then(res => res.json())
     .then(data => {
         queueElement.innerHTML = data

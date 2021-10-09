@@ -10,8 +10,13 @@
         <link rel="icon" href="Assets/tempicon.png">    
         
         <script>
-            $('head').append('<link rel="stylesheet" type="text/css" href="CSS/nav.css">');
-        </script>
+            var head = document.getElementsByTagName('HEAD')[0]; 
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';         
+            link.type = 'text/css';        
+            link.href = 'CSS/nav.css'; 
+            head.appendChild(link); 
+        </script> 
     </head>
     <body>
         <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.js"> </script>      

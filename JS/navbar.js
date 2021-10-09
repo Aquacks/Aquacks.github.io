@@ -4,7 +4,7 @@ fetch("https://2bqueue.info/queue", {mode: "no-cors"})
     .then(res => {return})
     .then(data => {
         var textDiv = document.createElement("div");
-        textDiv.innerHTML = dat[0];
+        textDiv.innerHTML = data[0];
         queueElement.appendChild(textDiv)
     })
     .catch(err => {

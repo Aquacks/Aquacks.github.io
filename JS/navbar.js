@@ -1,7 +1,4 @@
 //Queue Display 
-
-const { Console } = require("console");
-
 var queueElement = document.getElementById("queueCount");
 
 const interval = setInterval(function() {

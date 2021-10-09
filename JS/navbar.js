@@ -1,5 +1,3 @@
-const { json } = require("stream/consumers");
-
 var queueElement = document.getElementById("queueCount");
 
 fetch("https://2bqueue.info/queue", {mode: "no-cors"})

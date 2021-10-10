@@ -2,22 +2,16 @@
 var queueElement = document.getElementById("queueCount");
 
 const interval = setInterval(function() {
-    update();
+    getQueue();
 }, 10000);
 
-function update() {
+
+function getQueue() {
     fetch("https://2bqueue.info/queue", {mode: "no-cors"})
-        .then((res) => res.json)
-        .then((json) => {
-            var textDiv = document.createElement("div");
-            textDiv.innerHTML = `Queue: ${json.regular}`;
-            if(textDiv != null){
-                queueElement.appendChild(textDiv)
-            }
-            else return
+        .then(res => res.json())
+        .then(data => {
+            queueElement.innerHTML = `${data.regular}`
         })
-        .catch(err => {
-            console.error('Error: ', err);
-        });
 }
+
 // End Queue Display

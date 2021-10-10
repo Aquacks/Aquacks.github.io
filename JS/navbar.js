@@ -1,5 +1,4 @@
 //Queue Display 
-console.log("Running")
 var queueElement = document.getElementById("queueCount");
 
 getQueue();
@@ -9,12 +8,13 @@ const interval = setInterval(function() {
 }, 10000);
 
 function getQueue() {
-    fetch("https://2bqueue.info/*", {mode: "no-cors"}, {headers: {'Accept': 'application/json'}}
-        .then(res => res.json())
+    fetch("https://2bqueue.info/*", {mode: "no-cors"}, {headers: {'Accept': 'application/json'}})
+        .then(function (response) {
+            console.log(response.json())
+        }
         .then(data => {
             queueElement.innerHTML = `${data.regular}`
         })
-    )
 }
 
 // End Queue Display

@@ -53,9 +53,10 @@
     font-size: 25px;
     font-weight: 200;
 }
-
-#cartBtn {
-    margin-right: 50px;
-    width: 15px;
+#cartImg {
+    width: 50px;
     filter: invert(100%);
+}
+.cartLi {
+    margin-right: 80px;
 }

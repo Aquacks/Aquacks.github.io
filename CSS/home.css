@@ -20,5 +20,9 @@ body {
     width: max-content;
 }
 .SAPlist {
-    display: block;
+    display: flex;
+}
+.SAPlistElem {
+    padding: 50px;
+    flex: 33.33%;
 }

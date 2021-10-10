@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Swansea';
+    src: url(/fonts/Swansea-q3pd.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 .navBar {
     margin: 0;
@@ -28,7 +34,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Swansea";
     font-size: 25px;
     font-weight: 300;
 }

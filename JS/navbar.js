@@ -4,6 +4,7 @@ var queueElement = document.getElementById("queueCount");
 getQueue();
 const interval = setInterval(function() {
     getQueue();
+    console.log("Q Update.")
 }, 10000);
 
 function getQueue() {

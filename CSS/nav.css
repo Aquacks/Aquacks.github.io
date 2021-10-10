@@ -56,4 +56,6 @@
 
 #cartBtn {
     margin-right: 50px;
+    width: 15px;
+    filter: invert(100%);
 }

@@ -1,4 +1,5 @@
 //Queue Display 
+console.log("Running")
 var queueElement = document.getElementById("queueCount");
 
 getQueue();

@@ -7,8 +7,7 @@ function getQueue() {
         method: "post",
         headers: {
             "Content-Type": "application/json"
-        },
-        body: JSON.stringify(ob)
+        }
     })
         .then(response => response.json())
         .then((data) => {

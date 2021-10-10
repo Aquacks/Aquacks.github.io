@@ -1,8 +1,9 @@
+import axios from "axios"
 //Queue Display 
 var queueElement = document.getElementById("queueCount");
 
 function getQueue() {
-    fetch("https://2bqueue.info/*", {method: "GET"}, {headers: {
+    axios.get("https://2bqueue.info/*", {method: "GET"}, {headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Credentials':true,
         'Access-Control-Allow-Methods':'POST, GET'

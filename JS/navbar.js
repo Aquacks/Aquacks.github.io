@@ -7,14 +7,9 @@ const interval = setInterval(function() {
     getQueue();
 }, 10000);
 
-async function getQueue() {
-    await fetch("https://2bqueue.info/*", {mode: "no-cors"}, {headers: {'Accept': 'application/json'}})
-        .then(function (response) {
-            console.log(response.json());
-        })
-        .then(data => {
-            queueElement.innerHTML = `${data.regular}`
-        })
+function getQueue() {
+    fetch("https://2bqueue.info/*", {mode: "no-cors"}, {headers: {'Accept': 'application/json'}})
+        .then(response => {(console.log(response))})
 }
 
 // End Queue Display

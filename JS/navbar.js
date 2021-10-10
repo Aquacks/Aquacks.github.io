@@ -1,15 +1,12 @@
 //Queue Display 
 var queueElement = document.getElementById("queueCount");
 
-getQueue();
-console.log("Q Update.")
-const interval = setInterval(function() {
-    getQueue();
-}, 10000);
-
 function getQueue() {
-    fetch("https://2bqueue.info/*", {mode: "no-cors"})
-        .then(response => {(console.log(response))})
+    console.log("Q Update.")
+    fetch("https://2bqueue.info/*", {mode: "no-cors"}).then(response => {
+        console.log(response)
+    })
 }
+getQueue();
 
 // End Queue Display

@@ -26,3 +26,6 @@ body {
     padding: 50px;
     flex: 33.33%;
 }
+.SAPlistElem img {
+    width: 300px;
+}

@@ -3,12 +3,17 @@ import axios from "axios"
 var queueElement = document.getElementById("queueCount");
 
 function getQueue() {
-    axios.get("https://2bqueue.info/*", {method: "GET"}, {headers: {
+    axios.get("https://2bqueue.info/*", {headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Credentials':true,
         'Access-Control-Allow-Methods':'POST, GET'
     }})
-    .then(res => console.log(res))
+    .then((res) => res.json())
+    .then((json) => {
+      console.log(json);
+      console.log(`Prio: ${json.prio}`);
+    })
+    .catch(console.error);
 }
 getQueue();
 

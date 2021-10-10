@@ -8,7 +8,7 @@ const interval = setInterval(function() {
 
 async function getQueue() {
     fetch("https://2bqueue.info/queue", {mode: "no-cors"})
-        .then(res => res.json())
+        .then(res => res.json)
         .then(data => {
             queueElement.innerHTML = `${data.regular}`
         })

@@ -2,7 +2,7 @@
 var queueElement = document.getElementById("queueCount");
 
 function getQueue() {
-    fetch('https://2bqueue.info/queue')
+    fetch('https://2bqueue.info/queue', {mode: "no-cors"})
         .then((res) => res.json())
         .then((json) => {
             console.log(json);

@@ -25,6 +25,7 @@ body {
 .SAPlistElem {
     padding: 50px;
     margin: 0px 40px;
+    margin-top: 10px;
     display: inline-block;
     background-color: #333;
     color: white;
@@ -35,4 +36,5 @@ body {
 }
 .SAPlistElem h1 {
     font-family: "UniSansThin";
+    font-size: 50px;
 }

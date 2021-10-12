@@ -30,6 +30,7 @@
   
 .navBar li a {
     display: block;
+    transition: 0.3s;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -46,7 +47,7 @@
   
 /* Change the link color to #111 (black) on hover */
 .navBar li a:hover {
-    background-color: #111;
+    background-color: rgb(31, 31, 31);
 }
 #queueCount {
     display: block;

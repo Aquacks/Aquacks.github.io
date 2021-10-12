@@ -36,6 +36,7 @@ body {
 }
 .SAPlistElem img {
     width: 300px;
+    transition: 0.3s;
 }
 .SAPlistElem h1 {
     font-family: "UniSansThin";

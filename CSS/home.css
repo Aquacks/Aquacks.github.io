@@ -4,6 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+} 
 body {
     padding: 0px;
     margin: 0px;
@@ -35,8 +39,16 @@ body {
     background-color: rgb(31, 31, 31);
 }
 .SAPlistElem img {
-    width: 300px;
-    transition: 0.3s;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+}
+.SAPlistElem img:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
 }
 .SAPlistElem h1 {
     font-family: "UniSansThin";

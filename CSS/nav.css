@@ -41,6 +41,8 @@
 }
 #logoHome {
     font-family: "UniSansThin";
+    padding: 13px 14px;
+    font-size: 26px;
     margin-right: 80px;
     margin-left: 150px;
 }

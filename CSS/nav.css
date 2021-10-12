@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ralewayLight';
+    src: url(/fonts/Raleway-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 .navBar {
     margin: 0;
@@ -35,15 +41,15 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: "Swansea";
-    font-size: 23px;
+    font-family: "ralewayLight";
+    font-size: 30px;
     font-weight: 300;
 }
 #logoHome {
     font-family: "UniSansThin";
-    padding: 13px 14px;
-    font-size: 26px;
-    margin-right: 80px;
+    padding: 9px;
+    font-size: 38px;
+    margin-right: 90px;
     margin-left: 150px;
 }
   

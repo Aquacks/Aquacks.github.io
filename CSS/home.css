@@ -4,13 +4,11 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
 }
-
 .coverLine {
     font-family: "UniSansThin";
     color: white;

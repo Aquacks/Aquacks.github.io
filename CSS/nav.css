@@ -5,12 +5,6 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Swansea';
-    src: url(/fonts/Swansea-q3pd.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'ralewayLight';
     src: url(/fonts/Raleway-Light.ttf);
     font-weight: normal;
@@ -54,17 +48,6 @@
 }
 .navBar li a:hover {
     background-color: rgb(31, 31, 31);
-}
-#queueCount {
-    display: block;
-    color: white;
-    text-align: center;
-    margin-left: 80px;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 200;
 }
 #cartImg {
     width: 25px;

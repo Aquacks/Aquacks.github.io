@@ -24,8 +24,10 @@ body {
 }
 .SAPlistElem {
     padding: 50px;
+    margin: 0px 40px;
     display: inline-block;
     background-color: #333;
+    color: white;
 }
 .SAPlistElem img {
     width: 300px;

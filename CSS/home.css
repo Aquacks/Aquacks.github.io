@@ -20,12 +20,16 @@ body {
     width: max-content;
 }
 .SAPlist {
-    display: flex;
+    text-align: center;
 }
 .SAPlistElem {
     padding: 50px;
-    flex: 33.33%;
+    display: inline-block;
+    background-color: #333;
 }
 .SAPlistElem img {
     width: 300px;
+}
+.SAPlistElem h1 {
+    font-family: "UniSansThin";
 }

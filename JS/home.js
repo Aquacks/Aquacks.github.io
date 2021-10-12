@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 const securityDiv = document.getElementsByClassName("SAPlistElem")[0]
 
 $(securityDiv).click(function(){

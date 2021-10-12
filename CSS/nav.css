@@ -52,8 +52,6 @@
     margin-right: 90px;
     margin-left: 150px;
 }
-  
-/* Change the link color to #111 (black) on hover */
 .navBar li a:hover {
     background-color: rgb(31, 31, 31);
 }

@@ -28,7 +28,7 @@ body {
     display: inline-block;
     background-color: #333;
     color: white;
-    border-radius: 10%;
+    border-radius: 40px;
 }
 .SAPlistElem img {
     width: 300px;

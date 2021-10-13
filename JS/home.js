@@ -1,4 +1,5 @@
 import $ from "jquery"
+var $ = require('jQuery'); 
 
 document.addEventListener('DOMContentLoaded', function () {
     if(document.getElementsByClassName("SAPlistElem").length = 3){

@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     const infoText = document.createElement("p")
                     if(elem == document.getElementsByClassName("SAPlistElem")[0]){
-                        infoText.innerText = "Security text"
+                        infoText.innerHTML = "Security text"
                     }
                     if(elem == document.getElementsByClassName("SAPlistElem")[1]){
-                        infoText.innerText = "Automation text"
+                        infoText.innerHTML = "Automation text"
                     }
                     if(elem == document.getElementsByClassName("SAPlistElem")[2]){
-                        infoText.innerText = "Supply text"
+                        infoText.innerHTML = "Supply text"
                     }
                     elem.appendChild(infoText)
 

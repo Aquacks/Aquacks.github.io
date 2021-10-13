@@ -27,6 +27,8 @@ body {
 }
 .SAPlistElem {
     padding: 50px;
+    height: 631px;
+    width: 400px;
     cursor: pointer;
     margin: 0px 40px;
     margin-top: 10px;

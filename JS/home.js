@@ -8,18 +8,20 @@ document.addEventListener('DOMContentLoaded', function () {
                     //fades show elements
 
                     const infoText = document.createElement("p")
-                    if(elem == document.getElementsByClassName("SAPlistElem")[0]){
+                    if(document.getElementsByClassName("SAPlistElemContai")[i] == document.getElementsByClassName("SAPlistElem")[0]){
                         infoText.innerHTML = "Security text"
                     }
-                    if(elem == document.getElementsByClassName("SAPlistElem")[1]){
+                    if(document.getElementsByClassName("SAPlistElemContai")[i] == document.getElementsByClassName("SAPlistElem")[1]){
                         infoText.innerHTML = "Automation text"
                     }
-                    if(elem == document.getElementsByClassName("SAPlistElem")[2]){
+                    if(document.getElementsByClassName("SAPlistElemContai")[i] == document.getElementsByClassName("SAPlistElem")[2]){
                         infoText.innerHTML = "Supply text"
                     }
-                    else{elem.removeChild(infoText)}
-                    elem.appendChild(infoText)
+                    else{infoText = " "}
 
+                    if(infoText != " "){
+                        elem.appendChild(infoText)
+                    }
                 }) 
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseleave", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                     else{infoText.innerHTML = " "}
 
-                    if(infoText != " "){
+                    if(infoText.innerHTML != " "){
                         elem.appendChild(infoText)
                     }
                 }) 

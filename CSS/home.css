@@ -12,7 +12,6 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
-    position: fixed;
 }
 .coverLine {
     font-family: "UniSansThin";
@@ -28,7 +27,6 @@ body {
 }
 .SAPlistElem {
     padding: 50px;
-    cursor: pointer;
     margin: 0px 40px;
     margin-top: 10px;
     display: inline-block;

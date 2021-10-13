@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     //fades show elements
 
                     const infoText = document.createElement("p")
-                    if(elem = document.getElementsByClassName("SAPlistElem")[0]){
+                    if(elem == document.getElementsByClassName("SAPlistElem")[0]){
                         infoText.innerText = "Security text"
                     }
-                    if(elem = document.getElementsByClassName("SAPlistElem")[1]){
+                    if(elem == document.getElementsByClassName("SAPlistElem")[1]){
                         infoText.innerText = "Automation text"
                     }
-                    if(elem = document.getElementsByClassName("SAPlistElem")[2]){
+                    if(elem == document.getElementsByClassName("SAPlistElem")[2]){
                         infoText.innerText = "Supply text"
                     }
                     elem.appendChild(infoText)

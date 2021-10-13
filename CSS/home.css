@@ -41,15 +41,6 @@ body {
 .SAPlistElem img {
     width: 300px;
     opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
-}
-.SAPlistElem img:hover {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
 }
 .SAPlistElem h1 {
     font-family: "UniSansThin";

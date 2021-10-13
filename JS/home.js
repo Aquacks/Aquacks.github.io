@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if(document.getElementsByClassName("SAPlistElem")[i]){
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("click", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];
-                    $(elem).toggle(500,swing);     
+                    $(elem).toggle(500);     
                 })               
             }
         }

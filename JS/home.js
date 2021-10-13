@@ -5,10 +5,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseenter", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];
                     elem.setAttribute("style", "opacity:0;")   
+                    //fades show elements
+
+                    const infoText = document.createElement("p")
+                    if(elem = document.getElementsByClassName("SAPlistElem")[0]){
+                        infoText.innerText = "Security text"
+                    }
+                    if(elem = document.getElementsByClassName("SAPlistElem")[1]){
+                        infoText.innerText = "Automation text"
+                    }
+                    if(elem = document.getElementsByClassName("SAPlistElem")[2]){
+                        infoText.innerText = "Supply text"
+                    }
+                    elem.appendChild(infoText)
+
                 }) 
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseleave", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];
                     elem.setAttribute("style", "opacity:1;")
+                    //fades show elements
+
+                    //unloads new
                 })                   
             }
         }

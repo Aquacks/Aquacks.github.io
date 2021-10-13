@@ -37,6 +37,7 @@ body {
 }
 .SAPlistElem:hover {
     background-color: rgb(31, 31, 31);
+    
 }
 .SAPlistElem img {
     width: 300px;

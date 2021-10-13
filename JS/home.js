@@ -4,14 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if(document.getElementsByClassName("SAPlistElem")[i]){
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseenter", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];
-                       
+                    elem.setAttribute("style", "opacity:0;")   
                 }) 
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseleave", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContai")[i];
-                    if(elem.getAttribute("opacity") == 1){
-                        elem.setAttribute("style", "opacity:0;")
-                    }
-                    else {elem.setAttribute("style", "opacity:1;")}
+                    elem.setAttribute("style", "opacity:1;")
                 })                   
             }
         }

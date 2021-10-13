@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     if(document.getElementsByClassName("SAPlistElemContai")[i] == document.getElementsByClassName("SAPlistElem")[2]){
                         infoText.innerHTML = "Supply text"
                     }
-                    else{infoText = " "}
+                    else{infoText.innerHTML = " "}
 
                     if(infoText != " "){
                         elem.appendChild(infoText)

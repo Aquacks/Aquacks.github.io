@@ -35,15 +35,11 @@ body {
     border-radius: 40px;
     transition: 0.3s;
 }
-.SAPlistElemContai {
-    transition: 0.3s;
-}
 .SAPlistElem:hover {
     background-color: rgb(31, 31, 31);
 }
 .SAPlistElem img {
     width: 300px;
-    opacity: 1;
 }
 .SAPlistElem h1 {
     font-family: "UniSansThin";

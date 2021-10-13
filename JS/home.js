@@ -1,5 +1,4 @@
-//import $ from "jquery"
-var $ = require('jQuery'); 
+<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
 
 document.addEventListener('DOMContentLoaded', function () {
     if(document.getElementsByClassName("SAPlistElem").length = 3){

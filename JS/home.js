@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     //fades new elements                         
                     const textElem = document.getElementsByClassName("SAPtext")[i]
                     $(textElem).fadeIn()       
-                    disToggl = !disToggl;
                 })                               
             }
         }

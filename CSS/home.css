@@ -37,6 +37,7 @@ body {
     margin: 0px 40px;
     margin-top: 10px;
     display: inline-block;
+    vertical-align: top;
     background-color: #333;
     color: white;
     border-radius: 40px;

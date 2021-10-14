@@ -51,4 +51,6 @@ body {
 }
 .SAPlistElemContainer {
     display: block;
+    min-height: 497.500px;
+    min-width: 300px;
 }

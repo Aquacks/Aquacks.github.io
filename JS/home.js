@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         for(let i = 0; i <= document.getElementsByClassName("SAPlistElem").length; i++){
             if(document.getElementsByClassName("SAPlistElem")[i]){
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseenter", () => {   
-                    const elem = document.getElementsByClassName("SAPlistElemContai")[i];
+                    const elem = document.getElementsByClassName("SAPlistElemContainer")[i];
                     elem.setAttribute("style", "opacity:0;")   
                     //fades show elements
 
@@ -17,14 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     if(elem.id == "supElm"){
                         infoText.innerHTML = "Supply text"
                     }
-                    else{infoText.innerHTML = " "}
-
-                    if(infoText.innerHTML != " "){
-                        elem.appendChild(infoText)
-                    }
+                    else{infoText.innerHTML = "n/a"}
+                   
+                    elem.appendChild(infoText)                  
                 }) 
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseleave", () => {   
-                    const elem = document.getElementsByClassName("SAPlistElemContai")[i];
+                    const elem = document.getElementsByClassName("SAPlistElemContainer")[i];
                     elem.setAttribute("style", "opacity:1;")
                     //fades show elements
 

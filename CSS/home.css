@@ -34,6 +34,8 @@ body {
     color: white;
     border-radius: 40px;
     transition: 0.3s;
+    min-height: 497.500px;
+    min-width: 300px;
 }
 .SAPlistElem:hover {
     background-color: rgb(31, 31, 31);
@@ -51,6 +53,4 @@ body {
 }
 .SAPlistElemContainer {
     display: block;
-    min-height: 497.500px;
-    min-width: 300px;
 }

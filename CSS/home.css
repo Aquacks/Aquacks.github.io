@@ -46,3 +46,6 @@ body {
     font-family: "UniSansThin";
     font-size: 50px;
 }
+.SAPtext {
+    display: none;
+}

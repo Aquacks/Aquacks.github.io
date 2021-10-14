@@ -5,28 +5,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseenter", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContainer")[i];
                     elem.setAttribute("style", "opacity:0;")   
-                    //fades show elements
-
-                    const infoText = document.createElement("p")
-                    if(elem.id == "secElm"){
-                        infoText.innerHTML = "Security text"
-                    }
-                    if(elem.id == "autElm"){
-                        infoText.innerHTML = "Automation text"
-                    }
-                    if(elem.id == "supElm"){
-                        infoText.innerHTML = "Supply text"
-                    }
-                    else{infoText.innerHTML = "n/a"}
-                   
-                    elem.appendChild(infoText)                  
+                    //fades show elements                         
+                    const textElem = document.getElementsByClassName("SAPtext")[i]
+                    textElem.setAttribute("style", "display:block")        
                 }) 
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("mouseleave", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContainer")[i];
                     elem.setAttribute("style", "opacity:1;")
                     //fades show elements
 
-                    //unloads new
+                    //unloads new text
+                    const textElem = document.getElementsByClassName("SAPtext")[i]
+                    textElem.setAttribute("style", "display:none")    
                 })                   
             }
         }

@@ -3,10 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
         for(let i = 0; i <= document.getElementsByClassName("SAPlistElem").length; i++){
             if(document.getElementsByClassName("SAPlistElem")[i]){
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("click", () => {   
-                    var disToggl
                     const elem = document.getElementsByClassName("SAPlistElemContainer")[i];                 
                     //fades old elements
-                    if(disToggl == true){
+                    if(elem.getAttribute("display") != "none"){
                         elem.setAttribute("style", "display:none;")
                         elem.setAttribute("style", "visibility:hidden;")
                     }

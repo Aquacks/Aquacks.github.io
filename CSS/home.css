@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ralewayLight';
+    src: url(/fonts/Raleway-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 @keyframes fadeOut {
     0% {opacity: 1;}
     100% {opacity: 0;} 
@@ -27,6 +33,7 @@ body {
 }
 .SAPlistElem {
     padding: 50px;
+    cursor: pointer;
     margin: 0px 40px;
     margin-top: 10px;
     display: inline-block;
@@ -38,8 +45,7 @@ body {
     min-width: 300px;
 }
 .SAPlistElem:hover {
-    background-color: rgb(31, 31, 31);
-    
+    background-color: rgb(31, 31, 31); 
 }
 .SAPlistElem img {
     width: 300px;
@@ -50,6 +56,8 @@ body {
 }
 .SAPtext {
     display: none;
+    font-family: "ralewayLight";
+    font-size: 30px;
 }
 .SAPlistElemContainer {
     display: block;

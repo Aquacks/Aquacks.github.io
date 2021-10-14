@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("click", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContainer")[i];                 
                     //fades old elements
-                    if(elem.getAttribute("display") != "none"){
+                    if($(elem).css('display') !== 'none'){
                         elem.setAttribute("style", "display:none;")
                         elem.setAttribute("style", "visibility:hidden;")
                     }

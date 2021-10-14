@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     $(elem).fadeOut()
                     if(disToggl == true){
                         elem.setAttribute("stlye", "display:none;")
+                        elem.setAttribute("stlye", "visibility:hidden;")
                     }
-                    else {elem.setAttribute("stlye", "display:block;")}
+                    else {elem.setAttribute("stlye", "display:block;"); elem.setAttribute("stlye", "visibility:visible;")}
                     //fades new elements                         
                     const textElem = document.getElementsByClassName("SAPtext")[i]
                     $(textElem).fadeIn()       

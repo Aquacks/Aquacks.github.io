@@ -6,12 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementsByClassName("SAPlistElem")[i].addEventListener("click", () => {   
                     const elem = document.getElementsByClassName("SAPlistElemContainer")[i];                 
                     //fades old elements
-                    $(elem).fadeOut()
                     if(disToggl == true){
-                        elem.setAttribute("stlye", "display:none;")
-                        elem.setAttribute("stlye", "visibility:hidden;")
+                        elem.setAttribute("style", "display:none;")
+                        elem.setAttribute("style", "visibility:hidden;")
                     }
-                    else {elem.setAttribute("stlye", "display:block;"); elem.setAttribute("stlye", "visibility:visible;")}
+                    else {elem.setAttribute("style", "display:block;"); elem.setAttribute("style", "visibility:visible;")}
                     //fades new elements                         
                     const textElem = document.getElementsByClassName("SAPtext")[i]
                     $(textElem).fadeIn()       

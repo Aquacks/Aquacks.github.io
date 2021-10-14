@@ -42,7 +42,7 @@ body {
     border-radius: 40px;
     transition: 0.3s;
     max-height: 497.500px;
-    min-width: 300px;
+    width: 300px;
 }
 .SAPlistElem:hover {
     background-color: rgb(31, 31, 31); 
